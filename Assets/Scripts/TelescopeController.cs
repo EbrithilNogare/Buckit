@@ -14,6 +14,8 @@ public class TelescopeController : MonoBehaviour
     private float _coneInitialWorldLength;
     private Vector2 _currentTarget;
     private Tween _moveTween;
+    private float MoveDuration = 1f;
+    private float WaitDuration = 2.5f;
 
     void Awake()
     {
@@ -54,8 +56,6 @@ public class TelescopeController : MonoBehaviour
 
     public void Test()
     {
-        float MoveDuration = .5f;
-        float WaitDuration = 2.0f;
         Vector2 next = GetRandomLocationOnScreen();
 
         TweenTo(next, MoveDuration)
