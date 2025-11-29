@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DeerManager : MonoBehaviour
@@ -7,10 +9,10 @@ public class DeerManager : MonoBehaviour
     public GameObject deerPrefab4;
     public GameObject deerPrefab5;
     public GameObject SpawnPointsParent;
-    [SerializeField] private DeerController AlphaDeer;
+    public GameObject DeathDeersParent;
     
     [Header("---DEBUG---")]
-    [SerializeField] private bool spawnStag;
+    [SerializeField] private bool getDeers;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,10 +25,10 @@ public class DeerManager : MonoBehaviour
     {
         #region TEST
 
-        if (spawnStag)
+        if (getDeers)
         {
-            CreateStado();
-            spawnStag = false;
+            GetDeers();
+            getDeers = false;
         }
         
         #endregion
@@ -53,5 +55,10 @@ public class DeerManager : MonoBehaviour
                 break;
         }
         newDeer.transform.position = SpawnPointsParent.transform.GetChild(randomPosition).position;
+    }
+
+    public List<DeerController> GetDeers()
+    {
+        return FindObjectsByType<DeerController>(FindObjectsSortMode.None).ToList();
     }
 }
