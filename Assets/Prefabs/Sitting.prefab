@@ -30,7 +30,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 39.7, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 2}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 4756942535750241014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6575922998976163634
@@ -106,3 +107,34 @@ MonoBehaviour:
   SittingSprite2: {fileID: 1770001264133788283, guid: b2857b6694c44b84896ba59119f2b3b4, type: 3}
   SittingSprite3: {fileID: -5171302845419676366, guid: 9f648613b9a54644abbf361e5ed929ba, type: 3}
   Hit: 0
+--- !u!1 &4056104618218425052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4756942535750241014}
+  m_Layer: 0
+  m_Name: Window location
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4756942535750241014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056104618218425052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 682685129730477356}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
