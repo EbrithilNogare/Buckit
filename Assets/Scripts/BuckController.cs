@@ -4,51 +4,56 @@ using UnityEngine.InputSystem;
 public class BuckController : MonoBehaviour
 {
     public float moveSpeed = 10f;
+    public float smoothTime = 0.08f;
 
-    private Rigidbody2D rb;
-    private SpriteRenderer sr;
-    private Vector2 moveInput;
-    private Animator animator;
+    Rigidbody2D rb;
+    SpriteRenderer sr;
+    Animator animator;
+    Vector2 moveInput, velRef;
+    Vector2 minBound, maxBound;
+    Vector2 extent;
 
-    private void Awake()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+
+        var cam = Camera.main;
+        var h = cam.orthographicSize;
+        var w = h * cam.aspect;
+
+        minBound = new Vector2(-w, -h);
+        maxBound = new Vector2(w, h);
+
+        extent = sr.bounds.extents; // world size of sprite / 2
     }
 
-    // Called automatically from PlayerInput component (Unity Events mode)
-    public void OnMove(InputAction.CallbackContext context)
+    public void OnMove(InputAction.CallbackContext ctx)
     {
-        moveInput = context.ReadValue<Vector2>();
-        if (moveInput != Vector2.zero)
-        {
-            animator.Play("Walk");
-        }
-        else
-        {
-            animator.Play("Idle");
-        }
-        if (moveInput.x > 0)
-        {
-            sr.flipX = true;
-        }
-        else
-        {
-            if(moveInput.x < 0)
-                sr.flipX = false;
-        }
+        moveInput = ctx.ReadValue<Vector2>();
+        animator.Play(moveInput == Vector2.zero ? "Idle" : "Walk");
+        if (moveInput.x != 0) sr.flipX = moveInput.x > 0;
     }
 
-    public void OnFight(InputAction.CallbackContext context)
+    public void OnFight(InputAction.CallbackContext ctx)
     {
-        var boxInput = context.ReadValue<Vector2>();
-        if (boxInput != Vector2.zero)
+        if (ctx.ReadValue<Vector2>() != Vector2.zero)
             animator.Play("Box");
     }
-    
-    private void FixedUpdate()
+
+    void FixedUpdate()
     {
-        rb.linearVelocity = moveInput * moveSpeed;
+        rb.linearVelocity = Vector2.SmoothDamp(
+            rb.linearVelocity,
+            moveInput * moveSpeed,
+            ref velRef,
+            smoothTime
+        );
+
+        var p = transform.position;
+        p.x = Mathf.Clamp(p.x, minBound.x + extent.x, maxBound.x - extent.x);
+        p.y = Mathf.Clamp(p.y, minBound.y + extent.y, maxBound.y - extent.y);
+        transform.position = p;
     }
 }
