@@ -63,3 +63,10 @@ MonoBehaviour:
   deerCallList:
   - {fileID: 8300000, guid: d1c36662d6f1bbf43a309565580cd074, type: 3}
   - {fileID: 8300000, guid: 60d7418adeff0324c94bbdaf421fcaa6, type: 3}
+  reloadList:
+  - {fileID: 8300000, guid: 0fcf7786f89eace4788b476a83d15811, type: 3}
+  - {fileID: 8300000, guid: 5f706d6fd5c1fe04a9f8b223a3ca5f8c, type: 3}
+  - {fileID: 8300000, guid: bb54dc4eebd684149931cb7be1432b39, type: 3}
+  CasingEject: {fileID: 8300000, guid: c9ab53f62ad7cf84b8849618a0342862, type: 3}
+  CasingDrop: {fileID: 8300000, guid: a8c25fc6e23d139488b3eb1e5af1b46f, type: 3}
+  WoodHit: {fileID: 8300000, guid: 338abebb16079d540a78dd6fb1fe957d, type: 3}

@@ -18,9 +18,46 @@ public class AudioController : MonoBehaviour
     [SerializeField]
     private List<AudioClip> deerCallList = new List<AudioClip>();
 
+    [SerializeField]
+    private List<AudioClip> reloadList = new List<AudioClip>();
+
+    [SerializeField]
+    private AudioClip CasingEject;
+
+    [SerializeField]
+    private AudioClip CasingDrop;
+
+    [SerializeField]
+    private AudioClip WoodHit;
+
     private void Awake()
     {
         listener = FindAnyObjectByType<AudioListener>();
+    }
+
+    internal void PlayCasingEject()
+    {
+        AudioSource.PlayClipAtPoint(CasingEject, listener.transform.position);
+    }
+
+    internal void PlayCasingDrop()
+    {
+        AudioSource.PlayClipAtPoint(CasingDrop, listener.transform.position);
+    }
+
+    internal void PlayWoodHit()
+    {
+        AudioSource.PlayClipAtPoint(WoodHit, listener.transform.position);
+    }
+
+    public void PlayReload()
+    {
+        PlayReload(listener.transform.position);
+    }
+
+    public void PlayReload(Vector3 position)
+    {
+        PlayRandomSound(reloadList, position);
     }
 
     public void PlaySoftStep()
