@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -61,5 +62,15 @@ public class MinigameController : MonoBehaviour
     private void SetRadialValue(float radialValue)
     {
         progressBar.fillAmount = Mathf.Clamp(radialValue, minRadialValue, maxRadialValue);
+    }
+
+    public void CallE_left(InputAction.CallbackContext ctx)
+    {
+        Debug.Log("LEFT");
+    }
+
+    public void CallQ_right(InputAction.CallbackContext ctx)
+    {
+        Debug.Log("RIGHT");
     }
 }

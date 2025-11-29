@@ -1153,6 +1153,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1405005945}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2080994792 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1221542673785626171, guid: 828b5cf4c958f764ba245d7a253325b5, type: 3}
+  m_PrefabInstance: {fileID: 101848060}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cceeee0c19eeb04cb0c0e0891b64177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2125758958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,6 +1259,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1550650277674046159, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550650277674046159, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionId
+      value: e65b5d31-704a-4708-b865-b536b16e5284
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550650277674046159, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionId
+      value: b7b6af9b-fe68-48f5-a422-f97027021ade
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550650277674046159, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionName
+      value: 'Player/BoxLeft[/Keyboard/f]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550650277674046159, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionName
+      value: 'Player/BoxRight[/Keyboard/g]'
+      objectReference: {fileID: 0}
     - target: {fileID: 4655076523201996633, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.01
@@ -1606,7 +1637,7 @@ PrefabInstance:
     - target: {fileID: 8393304833356771783, guid: 241302529814f4c4a804217efb32e367, type: 3}
       propertyPath: audioController
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2080994792}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
