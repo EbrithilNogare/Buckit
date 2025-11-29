@@ -8,7 +8,7 @@ public class LaserController : MonoBehaviour
     public Transform SittingPosition;
     public Transform Buck;
 
-    private const float aimingTimeBeforeHit = 4f;
+    private const float aimingTimeBeforeHit = 3f;
 
     private SpriteRenderer _spriteRenderer;
     private Vector3 _initialScale;
@@ -116,7 +116,7 @@ public class LaserController : MonoBehaviour
         _currentEnd = target;
     }
 
-    public void TweenBeamTo(Vector2 newTarget, float duration = 1f)
+    public void TweenBeamTo(Vector2 newTarget, float duration = .1f)
     {
         if (!SittingPosition) return;
 

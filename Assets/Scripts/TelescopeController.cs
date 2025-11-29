@@ -13,19 +13,19 @@ public class TelescopeController : MonoBehaviour
     public Transform Cone;
 
     private const float tooCloseToView = 15f;
-    
+
     private SpriteRenderer _coneRenderer;
     private Vector3 _coneInitialScale;
     private float _coneInitialWorldLength;
     private Vector2 _currentTarget;
     private Tween _moveTween;
-    private float MoveDuration = 1f;
-    private float WaitDuration = 2.5f;
+    private float MoveDuration = .5f;
+    private float WaitDuration = 1.0f;
 
     private List<DeerController> deers;
     private DeerController selectedTarget;
     private bool avoidingDeer;
-
+    private float _fixedZ;
 
     void Awake()
     {
@@ -36,6 +36,8 @@ public class TelescopeController : MonoBehaviour
             Debug.LogWarning("TelescopeController: Missing SittingPosition / View / Cone reference.");
             return;
         }
+
+        _fixedZ = View.position.z;
 
         _coneRenderer = Cone.GetComponent<SpriteRenderer>();
         _coneInitialScale = Cone.localScale;
@@ -78,7 +80,6 @@ public class TelescopeController : MonoBehaviour
         }
     }
 
-
     private Vector2 GetAwayPositionFromBuck(float distance)
     {
         if (!Buck || !View) return Vector2.zero;
@@ -108,11 +109,11 @@ public class TelescopeController : MonoBehaviour
     private Vector2 GeSafeLocationOnScreen()
     {
         Vector2 proposedCoordination = Vector2.zero;
-        do {
+        do
+        {
             proposedCoordination = GetRandomLocationOnScreen();
         } while (!IsLocationSafe(proposedCoordination));
         return proposedCoordination;
-
     }
 
     private bool IsLocationSafe(Vector2 pos)
@@ -123,10 +124,9 @@ public class TelescopeController : MonoBehaviour
         foreach (DeerController t in deers)
             if (Vector2.Distance(new Vector2(t.transform.position.x, t.transform.position.y), pos) < 2.0f)
                 return false;
-            
+
         return true;
     }
-
 
     private int lookupsLeft = 4;
     public void Automation()
@@ -139,7 +139,7 @@ public class TelescopeController : MonoBehaviour
             avoidingDeer = false;
             selectedTarget = deers[Random.Range(0, deers.Count)];
             TweenTo(new Vector2(selectedTarget.transform.position.x, selectedTarget.transform.position.y), MoveDuration)
-                .OnComplete(() => DOVirtual.DelayedCall(1.0f, ()=>TriggerLaser(selectedTarget)));
+                .OnComplete(() => DOVirtual.DelayedCall(1.0f, () => TriggerLaser(selectedTarget)));
 
         }
         else
@@ -154,12 +154,11 @@ public class TelescopeController : MonoBehaviour
 
     private void TriggerLaser(DeerController selectedTarget)
     {
-        // hide self
         Cone.gameObject.SetActive(false);
         View.gameObject.SetActive(false);
-        // turn on laser
         laserController.TriggerLaser(selectedTarget);
     }
+
     public void LaserEnded()
     {
         Cone.gameObject.SetActive(true);
@@ -198,8 +197,8 @@ public class TelescopeController : MonoBehaviour
 
     void UpdateGeometry(Vector2 target)
     {
-        Vector3 start = SittingPosition.position;
-        Vector3 end = new Vector3(target.x, target.y, start.z);
+        Vector3 start = new Vector3(SittingPosition.position.x, SittingPosition.position.y, _fixedZ);
+        Vector3 end = new Vector3(target.x, target.y, _fixedZ);
         Vector3 dir = end - start;
         float distance = dir.magnitude;
 
@@ -210,7 +209,11 @@ public class TelescopeController : MonoBehaviour
         View.position = end;
         View.rotation = rot;
 
-        Cone.position = (start + end) * 0.5f;
+        Cone.position = new Vector3(
+            (start.x + end.x) * 0.5f,
+            (start.y + end.y) * 0.5f,
+            _fixedZ
+        );
         Cone.rotation = rot;
 
         float scaleFactor = distance / _coneInitialWorldLength;
