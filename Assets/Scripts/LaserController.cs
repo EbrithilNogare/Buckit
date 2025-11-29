@@ -4,8 +4,11 @@ using DG.Tweening;
 [RequireComponent(typeof(SpriteRenderer))]
 public class LaserController : MonoBehaviour
 {
-    [Header("Fixed start of the beam")]
+    public TelescopeController telescopeController;
     public Transform SittingPosition;
+    public Transform Buck;
+
+    private const float aimingTimeBeforeHit = 4f;
 
     private SpriteRenderer _spriteRenderer;
     private Vector3 _initialScale;
@@ -13,6 +16,10 @@ public class LaserController : MonoBehaviour
 
     private Vector2 _currentEnd;
     private Tween _moveTween;
+    private bool isAiming;
+    private float hitRadius = 1.0f;
+    private float aimingDuration = 0;
+    private DeerController selectedTarget;
 
     private void Awake()
     {
@@ -25,7 +32,75 @@ public class LaserController : MonoBehaviour
 
     private void Start()
     {
-        if (SittingPosition) _currentEnd = SittingPosition.position;
+        isAiming = false;
+        if (SittingPosition)
+            _currentEnd = SittingPosition.position;
+    }
+    void Update()
+    {
+        if (!isAiming) return;
+
+        aimingDuration += Time.deltaTime;
+
+        if (IsBuckOnBeam())
+        {
+            EndLaser();
+            // give control to minigame
+            // todo triger minigame
+            telescopeController.LaserEnded();
+        }
+        else if (aimingDuration > aimingTimeBeforeHit)
+        {
+            //kill deer
+            selectedTarget.Die();
+
+            // play sound
+            // todo
+
+            // play animation
+            // todo
+
+            // end self
+            EndLaser();
+
+            // give control to telescope
+            telescopeController.LaserEnded();
+        }
+    }
+
+    bool IsBuckOnBeam()
+    {
+        Vector2 start = SittingPosition.position;
+        Vector2 end = _currentEnd;
+        Vector2 buckPos = Buck.position;
+
+        Vector2 seg = end - start;
+        float segLenSq = seg.sqrMagnitude;
+        if (segLenSq < 0.0001f) return false;
+
+        float t = Vector2.Dot(buckPos - start, seg) / segLenSq;
+        t = Mathf.Clamp01(t);
+
+        Vector2 closest = start + seg * t;
+        float dist = Vector2.Distance(buckPos, closest);
+
+        return dist <= hitRadius;
+    }
+
+    public void TriggerLaser(DeerController _selectedTarget)
+    {
+        selectedTarget = _selectedTarget;
+        gameObject.SetActive(true);
+        MoveBeamTo(SittingPosition.position);
+        TweenBeamTo(selectedTarget.transform.position);
+        isAiming = true;
+        aimingDuration = 0;
+    }
+
+    private void EndLaser()
+    {
+        isAiming = false;
+        gameObject.SetActive(false);
     }
 
     public void Test()

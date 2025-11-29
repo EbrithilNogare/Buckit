@@ -1250,6 +1250,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836440639}
   m_CullTransparentMesh: 1
+--- !u!114 &869678880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4507848493970948074, guid: 5f4cf7a4a82469146894ed8cf9db8b20, type: 3}
+  m_PrefabInstance: {fileID: 6382984208666451705}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c97fa82bc0c764bba85f785100510b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &955813201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,6 +2679,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76740039b25e7b448a502346523af677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1962019778 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4655076523201996633, guid: 0892625b95ac70148833cfc85d3d106d, type: 3}
+  m_PrefabInstance: {fileID: 1913663210550815479}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2026535126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,14 +3189,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3230768267458602088, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230768267458602088, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3230768267458602088, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8
       objectReference: {fileID: 0}
@@ -3225,9 +3233,17 @@ PrefabInstance:
       value: Laser
       objectReference: {fileID: 0}
     - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
+      propertyPath: Buck
+      value: 
+      objectReference: {fileID: 1962019778}
+    - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
       propertyPath: SittingPosition
       value: 
       objectReference: {fileID: 6361836010166707059}
+    - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
+      propertyPath: telescopeController
+      value: 
+      objectReference: {fileID: 1889391422}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3262,7 +3278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 645370565268473941, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 645370565268473941, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3297,9 +3313,21 @@ PrefabInstance:
       value: Telescope
       objectReference: {fileID: 0}
     - target: {fileID: 7299764728625179964, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
+      propertyPath: Buck
+      value: 
+      objectReference: {fileID: 1962019778}
+    - target: {fileID: 7299764728625179964, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
+      propertyPath: deerManager
+      value: 
+      objectReference: {fileID: 869678880}
+    - target: {fileID: 7299764728625179964, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
       propertyPath: SittingPosition
       value: 
       objectReference: {fileID: 6361836010166707059}
+    - target: {fileID: 7299764728625179964, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
+      propertyPath: laserController
+      value: 
+      objectReference: {fileID: 7128489961986658888}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -1,13 +1,18 @@
 ﻿using UnityEngine;
 using DG.Tweening;
+using System.Collections.Generic;
 
 public class TelescopeController : MonoBehaviour
 {
     public Transform SittingPosition;
-    
+    public DeerManager deerManager;
+    public Transform Buck;
+    public LaserController laserController;
+
     public Transform View;
     public Transform Cone;
 
+    private const float tooCloseToView = 15f;
     
     private SpriteRenderer _coneRenderer;
     private Vector3 _coneInitialScale;
@@ -17,8 +22,15 @@ public class TelescopeController : MonoBehaviour
     private float MoveDuration = 1f;
     private float WaitDuration = 2.5f;
 
+    private List<DeerController> deers;
+    private DeerController selectedTarget;
+    private bool avoidingDeer;
+
+
     void Awake()
     {
+        avoidingDeer = true;
+
         if (!Cone || !View || !SittingPosition)
         {
             Debug.LogWarning("TelescopeController: Missing SittingPosition / View / Cone reference.");
@@ -43,6 +55,45 @@ public class TelescopeController : MonoBehaviour
         _currentTarget = new Vector2(p.x, p.y);
     }
 
+    private void Start()
+    {
+        deers = deerManager.GetDeers();
+    }
+
+    private void Update()
+    {
+        if (avoidingDeer)
+        {
+            if (Vector2.Distance(View.position, Buck.position) < tooCloseToView)
+            {
+                transform.DOKill();
+                Vector2 moveTo = GetAwayPositionFromBuck(30f);
+                TweenTo(moveTo, .2f)
+                    .OnComplete(() => DOVirtual.DelayedCall(0.2f, () =>
+                    {
+                        lookupsLeft++;
+                        Automation();
+                    }));
+            }
+        }
+    }
+
+
+    private Vector2 GetAwayPositionFromBuck(float distance)
+    {
+        if (!Buck || !View) return Vector2.zero;
+
+        Vector2 buckPos = Buck.position;
+        Vector2 viewPos = View.position;
+
+        Vector2 dir = viewPos - buckPos;      // direction from buck to current view
+        if (dir.sqrMagnitude < 0.001f)
+            dir = Random.insideUnitCircle;    // fallback if on top
+
+        dir.Normalize();
+        return buckPos + dir * distance;      // point "distance" units away from buck
+    }
+
     private Vector2 GetRandomLocationOnScreen()
     {
         Vector2 AreaFrom = new Vector2(-80, -40);
@@ -54,12 +105,71 @@ public class TelescopeController : MonoBehaviour
         );
     }
 
+    private Vector2 GeSafeLocationOnScreen()
+    {
+        Vector2 proposedCoordination = Vector2.zero;
+        do {
+            proposedCoordination = GetRandomLocationOnScreen();
+        } while (!IsLocationSafe(proposedCoordination));
+        return proposedCoordination;
+
+    }
+
+    private bool IsLocationSafe(Vector2 pos)
+    {
+        if (Vector2.Distance(new Vector2(Buck.position.x, Buck.position.y), pos) < 3.0f)
+            return false;
+
+        foreach (DeerController t in deers)
+            if (Vector2.Distance(new Vector2(t.transform.position.x, t.transform.position.y), pos) < 2.0f)
+                return false;
+            
+        return true;
+    }
+
+
+    private int lookupsLeft = 4;
+    public void Automation()
+    {
+        deers = deerManager.GetDeers();
+
+        if (lookupsLeft <= 0)
+        {
+            lookupsLeft = 4;
+            avoidingDeer = false;
+            selectedTarget = deers[Random.Range(0, deers.Count)];
+            TweenTo(new Vector2(selectedTarget.transform.position.x, selectedTarget.transform.position.y), MoveDuration)
+                .OnComplete(() => DOVirtual.DelayedCall(1.0f, ()=>TriggerLaser(selectedTarget)));
+
+        }
+        else
+        {
+            lookupsLeft--;
+            avoidingDeer = true;
+            Vector2 next = GeSafeLocationOnScreen();
+            TweenTo(next, MoveDuration)
+                .OnComplete(() => DOVirtual.DelayedCall(WaitDuration, Automation));
+        }
+    }
+
+    private void TriggerLaser(DeerController selectedTarget)
+    {
+        // hide self
+        Cone.gameObject.SetActive(false);
+        View.gameObject.SetActive(false);
+        // turn on laser
+        laserController.TriggerLaser(selectedTarget);
+    }
+    public void LaserEnded()
+    {
+        Cone.gameObject.SetActive(true);
+        View.gameObject.SetActive(true);
+        Automation();
+    }
+
     public void Test()
     {
-        Vector2 next = GetRandomLocationOnScreen();
-
-        TweenTo(next, MoveDuration)
-            .OnComplete(() => DOVirtual.DelayedCall(WaitDuration, Test));
+        Automation();
     }
 
     public void MoveTo(Vector2 target)
