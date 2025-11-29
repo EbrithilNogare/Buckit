@@ -23,11 +23,11 @@ public class BuckController : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         if (moveInput != Vector2.zero)
         {
-            animator.enabled = true;
+            animator.Play("Walk");
         }
         else
         {
-            animator.enabled = false;
+            animator.Play("Idle");
         }
         if (moveInput.x > 0)
         {
@@ -38,6 +38,13 @@ public class BuckController : MonoBehaviour
             if(moveInput.x < 0)
                 sr.flipX = false;
         }
+    }
+
+    public void OnFight(InputAction.CallbackContext context)
+    {
+        var boxInput = context.ReadValue<Vector2>();
+        if (boxInput != Vector2.zero)
+            animator.Play("Box");
     }
     
     private void FixedUpdate()
