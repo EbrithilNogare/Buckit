@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DeerController : MonoBehaviour
@@ -12,6 +13,8 @@ public class DeerController : MonoBehaviour
     public GameObject DeathDeer;
     
     private Animator animator;
+    private bool death = false;
+    private bool free = true;
 
     private void Start()
     {
@@ -31,6 +34,22 @@ public class DeerController : MonoBehaviour
             Die();
             die = false;
         }
+
+        if (free)
+        {
+            int random = Random.Range(0, 10000);
+            if (random < 2)
+            {
+                LookAround();
+                
+            }
+            if(random > 9998)
+                Eat();
+        }
+        else
+        {
+            
+        }
     }
 
     public void MoveTo(float x, float y)
@@ -41,8 +60,26 @@ public class DeerController : MonoBehaviour
 
     public void Die()
     {
+        death = true;
+        free = false;
         animator.Play("Die");
-        StartCoroutine(WaitAndDo(1f));
+        StartCoroutine(WaitAndDo(0.5f));
+    }
+
+    public void Eat()
+    {
+        if (death) return;
+        free = false;
+        animator.Play("Eat");
+        StartCoroutine(Wait(5f));
+    }
+    
+    public void LookAround()
+    {
+        if (death) return;
+        free = false;
+        animator.Play("Look");
+        StartCoroutine(Wait(5f));
     }
 
     IEnumerator WaitAndDo(float time)
@@ -52,4 +89,11 @@ public class DeerController : MonoBehaviour
         deathDeer.transform.position = transform.position;
         Destroy(gameObject);
     }
+    
+    IEnumerator Wait(float time)
+    {
+        yield return new WaitForSeconds(time);
+        free = true;
+    }
+    
 }
