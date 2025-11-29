@@ -1,4 +1,5 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
@@ -40,9 +41,15 @@ public class DeerController : MonoBehaviour
 
     public void Die()
     {
-        //TODO animate Death
-        Instantiate(DeathDeer, transform.parent.parent.gameObject.GetComponent<DeerManager>().DeathDeersParent.transform);
-        DeathDeer.transform.position = transform.position;
-        Destroy(this.gameObject);
+        animator.Play("Die");
+        StartCoroutine(WaitAndDo(2f));
+    }
+
+    IEnumerator WaitAndDo(float time)
+    {
+        yield return new WaitForSeconds(time);
+        var deathDeer = Instantiate(DeathDeer, transform.parent.parent.gameObject.GetComponent<DeerManager>().DeathDeersParent.transform);
+        deathDeer.transform.position = transform.position;
+        Destroy(gameObject);
     }
 }
