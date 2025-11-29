@@ -135,6 +135,12 @@ public class TelescopeController : MonoBehaviour
 
         if (lookupsLeft <= 0)
         {
+            if (deers.Count <= 0)
+            {
+                Debug.LogError("game should have ended already");
+                return;
+            }
+
             lookupsLeft = 4;
             avoidingDeer = false;
             selectedTarget = deers[Random.Range(0, deers.Count)];
