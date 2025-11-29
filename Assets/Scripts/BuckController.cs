@@ -11,7 +11,6 @@ public class BuckController : MonoBehaviour
     Animator animator;
     Vector2 moveInput, velRef;
     Vector2 minBound, maxBound;
-    Vector2 extent;
 
     void Awake()
     {
@@ -23,10 +22,12 @@ public class BuckController : MonoBehaviour
         var h = cam.orthographicSize;
         var w = h * cam.aspect;
 
-        minBound = new Vector2(-w, -h);
-        maxBound = new Vector2(w, h);
+        var extent = sr.bounds.extents;
 
-        extent = sr.bounds.extents; // world size of sprite / 2
+        float heighOfSky = 6.6f;
+
+        minBound = new Vector2(-w + extent.x, -h + extent.y);
+        maxBound = new Vector2(w - extent.x, h - extent.y - heighOfSky);
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
@@ -52,8 +53,8 @@ public class BuckController : MonoBehaviour
         );
 
         var p = transform.position;
-        p.x = Mathf.Clamp(p.x, minBound.x + extent.x, maxBound.x - extent.x);
-        p.y = Mathf.Clamp(p.y, minBound.y + extent.y, maxBound.y - extent.y);
+        p.x = Mathf.Clamp(p.x, minBound.x, maxBound.x);
+        p.y = Mathf.Clamp(p.y, minBound.y, maxBound.y);
         transform.position = p;
     }
 }
