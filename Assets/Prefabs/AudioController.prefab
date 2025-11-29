@@ -1,5 +1,134 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &79042064374861385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3832820714389021037}
+  - component: {fileID: 6262938061333047013}
+  m_Layer: 0
+  m_Name: Ambient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3832820714389021037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79042064374861385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7346622813797069038}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6262938061333047013
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79042064374861385}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: df0201de14bcb554eb6621487c255a40, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3776823287479412867
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +158,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3832820714389021037}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1221542673785626171
@@ -61,12 +191,20 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 64c592d85fab5684f8fe4972280d3341, type: 3}
   - {fileID: 8300000, guid: 207e64e68d434024b993608c11556c5e, type: 3}
   deerCallList:
-  - {fileID: 8300000, guid: d1c36662d6f1bbf43a309565580cd074, type: 3}
   - {fileID: 8300000, guid: 60d7418adeff0324c94bbdaf421fcaa6, type: 3}
+  - {fileID: 8300000, guid: d1c36662d6f1bbf43a309565580cd074, type: 3}
   reloadList:
+  - {fileID: 8300000, guid: c6e9634daf32a31488cc604063308b83, type: 3}
   - {fileID: 8300000, guid: 0fcf7786f89eace4788b476a83d15811, type: 3}
   - {fileID: 8300000, guid: 5f706d6fd5c1fe04a9f8b223a3ca5f8c, type: 3}
   - {fileID: 8300000, guid: bb54dc4eebd684149931cb7be1432b39, type: 3}
+  deerDodgeList:
+  - {fileID: 8300000, guid: 8e405953468600d4fb4dd26428d350b3, type: 3}
+  - {fileID: 8300000, guid: 0baf615a261d354438ad3f1b8173df78, type: 3}
+  - {fileID: 8300000, guid: ea1f4811dd6d1fb48bacf68b1d7d4c79, type: 3}
+  - {fileID: 8300000, guid: 7e2e23d6ba0a19d40bf779ad39a8c925, type: 3}
   CasingEject: {fileID: 8300000, guid: c9ab53f62ad7cf84b8849618a0342862, type: 3}
   CasingDrop: {fileID: 8300000, guid: a8c25fc6e23d139488b3eb1e5af1b46f, type: 3}
   WoodHit: {fileID: 8300000, guid: 338abebb16079d540a78dd6fb1fe957d, type: 3}
+  Aim: {fileID: 8300000, guid: 53d579a3e36223343a6f696a120c4326, type: 3}
+  Gunshot: {fileID: 8300000, guid: 5457f95774a5b5f47a1204c79fec7325, type: 3}
