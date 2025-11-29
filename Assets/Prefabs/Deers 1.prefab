@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 9060606640969973758}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.855244, y: -21.951973, z: -0.7418258}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -47,4 +47,6 @@ MonoBehaviour:
   deerPrefab3: {fileID: 4411850431800181523, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
   deerPrefab4: {fileID: 4411850431800181523, guid: 01501115fbf88ba44b2f055c8c4644d3, type: 3}
   deerPrefab5: {fileID: 4411850431800181523, guid: 8466cc794d143a9429c1175b9d5f5079, type: 3}
+  SpawnPointsParent: {fileID: 0}
   AlphaDeer: {fileID: 0}
+  spawnStag: 0
