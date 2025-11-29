@@ -3607,6 +3607,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sitting
       objectReference: {fileID: 0}
+    - target: {fileID: 4243727630300768790, guid: d77aa46e466c6c14e8b02fb3c4fb9d50, type: 3}
+      propertyPath: SittingSprite0
+      value: 
+      objectReference: {fileID: 6970119428980305852, guid: 18f478f94ec314d4d94f0b06855f7838, type: 3}
+    - target: {fileID: 4243727630300768790, guid: d77aa46e466c6c14e8b02fb3c4fb9d50, type: 3}
+      propertyPath: SittingSprite1
+      value: 
+      objectReference: {fileID: 1864355941653719331, guid: 153f69c101c8a684ab3eb23ed8cd8b0d, type: 3}
+    - target: {fileID: 4243727630300768790, guid: d77aa46e466c6c14e8b02fb3c4fb9d50, type: 3}
+      propertyPath: SittingSprite2
+      value: 
+      objectReference: {fileID: 1770001264133788283, guid: b2857b6694c44b84896ba59119f2b3b4, type: 3}
+    - target: {fileID: 4243727630300768790, guid: d77aa46e466c6c14e8b02fb3c4fb9d50, type: 3}
+      propertyPath: SittingSprite3
+      value: 
+      objectReference: {fileID: -5171302845419676366, guid: 9f648613b9a54644abbf361e5ed929ba, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
