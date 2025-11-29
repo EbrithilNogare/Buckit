@@ -42,7 +42,7 @@ public class DeerController : MonoBehaviour
     public void Die()
     {
         animator.Play("Die");
-        StartCoroutine(WaitAndDo(2f));
+        StartCoroutine(WaitAndDo(1f));
     }
 
     IEnumerator WaitAndDo(float time)
