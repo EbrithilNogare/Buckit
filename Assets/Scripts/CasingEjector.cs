@@ -13,11 +13,11 @@ public class CasingEjector : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
 
-        foreach (Transform t in transform)
-        {
-            Eject(t.position);
-            yield return new WaitForSeconds(1f);
-        }
+        //foreach (Transform t in transform)
+        //{
+        //    Eject(t.position);
+        //    yield return new WaitForSeconds(1f);
+        //}
     }
 
     [ContextMenu(nameof(TestEject))]
