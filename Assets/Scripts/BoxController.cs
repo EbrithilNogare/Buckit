@@ -48,6 +48,9 @@ public class BoxController : MonoBehaviour
 
     public void EndBox()
     {
+        if (!minigameActive)
+            return;
+
         minigameActive = false;
         BoxWindow.SetActive(false);
         buckController.gameObject.GetComponent<Animator>().enabled = true;

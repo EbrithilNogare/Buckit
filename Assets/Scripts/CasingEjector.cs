@@ -5,6 +5,7 @@ using UnityEngine;
 public class CasingEjector : MonoBehaviour
 {
     public SittingController sittingController;
+    public BoxController boxController;
 
     [SerializeField]
     private Transform Casing;
@@ -66,6 +67,8 @@ public class CasingEjector : MonoBehaviour
 
         sittingController.HideGuidingZone();
         isReloading = false;
+
+        boxController.EndBox();
 
         callback.Invoke();
     }
