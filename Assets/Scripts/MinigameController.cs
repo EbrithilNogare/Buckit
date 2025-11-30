@@ -23,6 +23,8 @@ public class MinigameController : MonoBehaviour
     private bool minigameActive;
 
     private int numOfBullets = 3;
+    private CasingEjector casingEjector;
+    private bool GameContinues = true;
     private int quickValue = 0;
     
     private DeerController deerController;
@@ -50,12 +52,11 @@ public class MinigameController : MonoBehaviour
     private void CallDeath()
     {
         Debug.Log("DEATH!!!!");
+        AudioController.Instance.PlayGunshot();
         minigameWindow.SetActive(false);
         numOfBullets = 3;
         minigameActive = false;
         SetRadialValue(0f);
-        //TODO
-        //SCENE CHANGE!
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -72,6 +73,8 @@ public class MinigameController : MonoBehaviour
     public void MinigameStart(DeerController controller)
     {
         deerController = controller;
+        casingEjector = FindFirstObjectByType<CasingEjector>();
+        GameContinues = true;
         minigameWindow.SetActive(true);
         minigameActive = true;
     }
@@ -90,7 +93,7 @@ public class MinigameController : MonoBehaviour
 
     private void RestartQuickTimeEvent()
     {
-        if (numOfBullets == 0)
+        if (numOfBullets == 0 || !GameContinues)
         {
             CallEnd();
             return;
@@ -118,9 +121,6 @@ public class MinigameController : MonoBehaviour
     {
         if (!minigameWindow.activeSelf) return;
         minigameActive = false;
-        
-        //TODO
-        //CALL AUDIO
         
         if (i != quickValue)
         {
@@ -171,7 +171,10 @@ public class MinigameController : MonoBehaviour
         }
 
         int movedValue = i == 0 ? 217 : -217;
-
+        
+        GameContinues = casingEjector.UseShellAndContinue();
+        Debug.Log("QUICK TIME: " + GameContinues + " : " + numOfBullets);
+        
         image.DOLocalMoveX(movedValue, .33f).SetEase(Ease.OutBounce).OnComplete(() =>
         {
             //Clean Up
