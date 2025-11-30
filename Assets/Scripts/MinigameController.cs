@@ -58,7 +58,7 @@ public class MinigameController : MonoBehaviour
         numOfBullets = 3;
         minigameActive = false;
         SetRadialValue(0f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(2);
     }
 
     private void CallEnd()

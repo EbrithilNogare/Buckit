@@ -13,12 +13,14 @@ public class DeerController : MonoBehaviour
     public GameObject DeathDeer;
     
     private Animator animator;
+    private DeerManager manager;
     private bool death = false;
     private bool free = true;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        manager = transform.parent.parent.gameObject.GetComponent<DeerManager>();
     }
 
     private void Update()
@@ -92,7 +94,7 @@ public class DeerController : MonoBehaviour
         yield return new WaitForSeconds(time);
         var deathDeer = Instantiate(DeathDeer, transform.parent.parent.gameObject.GetComponent<DeerManager>().DeathDeersParent.transform);
         deathDeer.transform.position = transform.position;
-        transform.parent.parent.gameObject.GetComponent<DeerManager>().DecreaseScore();
+        manager.DecreaseScore();
         Destroy(gameObject);
     }
     
