@@ -7,6 +7,8 @@ using UnityEngine.Serialization;
 
 public class SittingController : MonoBehaviour
 {
+    public GameObject Target;
+
     [FormerlySerializedAs("HitGained")] [Header("---CONST---")] [SerializeField]
     public int MaxHealth;
     public Sprite SittingSprite0;
@@ -24,6 +26,7 @@ public class SittingController : MonoBehaviour
     private int multiplier = 0;
     private int damagePlus = 5;
     private int damage = 1;
+    public const float distanceToTriggerBox = 10f;
 
     void Start()
     {
@@ -48,6 +51,16 @@ public class SittingController : MonoBehaviour
             Hit = false;
         }
         #endregion
+    }
+
+    public void RevealGuidingZone()
+    {
+        Target.SetActive(true);
+    }
+
+    public void HideGuidingZone()
+    {
+        Target.SetActive(false);
     }
 
     private void SittingGainedDamage()

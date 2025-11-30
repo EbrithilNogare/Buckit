@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CasingEjector : MonoBehaviour
 {
+    public SittingController sittingController;
+
     [SerializeField]
     private Transform Casing;
     [SerializeField]
@@ -21,7 +23,7 @@ public class CasingEjector : MonoBehaviour
     // false = empty shells
     public bool UseShellAndContinue()
     {
-        if (shellIndex == 0)
+        if (shellIndex == -1)
             return false;
 
         Transform shell = transform.GetChild(shellIndex);
@@ -32,7 +34,7 @@ public class CasingEjector : MonoBehaviour
 
         shellIndex--;
 
-        return shellIndex > 0;
+        return shellIndex >= 0;
     }
 
     public void StartReloading(System.Action callback)
@@ -40,6 +42,7 @@ public class CasingEjector : MonoBehaviour
         isReloading = true;
 
         audioController.PlayAction();
+        sittingController.RevealGuidingZone();
 
         StartCoroutine(RevealBullets(callback));
     }
@@ -60,6 +63,8 @@ public class CasingEjector : MonoBehaviour
         }
 
         shellIndex = transform.childCount - 1;
+
+        sittingController.HideGuidingZone();
         isReloading = false;
 
         callback.Invoke();
