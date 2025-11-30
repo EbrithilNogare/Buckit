@@ -42,7 +42,7 @@ public class AudioController : MonoBehaviour
     private AudioSource AimMusic;
 
     [SerializeField]
-    private AudioClip Gunshot;
+    private AudioSource Gunshot;
 
     private void Awake()
     {
@@ -92,7 +92,8 @@ public class AudioController : MonoBehaviour
     [ContextMenu(nameof(PlayGunshot))]
     internal void PlayGunshot()
     {
-        AudioSource.PlayClipAtPoint(Gunshot, listener.transform.position);
+        Gunshot.time = 0.2f;
+        Gunshot.Play();
     }
 
     [ContextMenu(nameof(PlayReload))]
