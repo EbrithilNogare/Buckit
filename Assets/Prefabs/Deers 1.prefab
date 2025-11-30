@@ -85,6 +85,7 @@ MonoBehaviour:
   deerPrefab5: {fileID: 4411850431800181523, guid: 8466cc794d143a9429c1175b9d5f5079, type: 3}
   SpawnPointsParent: {fileID: 0}
   DeathDeersParent: {fileID: 6894757516980979578}
+  deerCountText: {fileID: 0}
   getDeers: 0
 --- !u!1001 &202231373312479475
 PrefabInstance:
@@ -208,11 +209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 8466cc794d143a9429c1175b9d5f5079, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.4
+      value: 60.4
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 8466cc794d143a9429c1175b9d5f5079, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.1
+      value: -22.5
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 8466cc794d143a9429c1175b9d5f5079, type: 3}
       propertyPath: m_LocalPosition.z
@@ -274,11 +275,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 65.1
+      value: 27.1
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17
+      value: -23.5
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -424,11 +425,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 01501115fbf88ba44b2f055c8c4644d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 56
+      value: -54.5
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 01501115fbf88ba44b2f055c8c4644d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20
+      value: -16.6
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: 01501115fbf88ba44b2f055c8c4644d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -498,11 +499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.1
+      value: -32.3
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -34
+      value: 12.9
       objectReference: {fileID: 0}
     - target: {fileID: 8872839545161013003, guid: b484554fc6b37654caaef7ab3700962a, type: 3}
       propertyPath: m_LocalPosition.z
