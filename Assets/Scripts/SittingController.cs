@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -70,7 +71,8 @@ public class SittingController : MonoBehaviour
         else
         {
             sr.sprite = SittingSprite3;
-            SceneManager.LoadScene(2);
+            AudioController.Instance.PlayCollapse();
+            StartCoroutine(WinScreen());
         }
         // switch (MaxHealth)
         // {
@@ -80,5 +82,11 @@ public class SittingController : MonoBehaviour
         //     case 3: sr.sprite = SittingSprite3; break;
         //     default: sr.sprite = SittingSprite0; break;
         // }
+    }
+
+    private IEnumerator WinScreen()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(2);
     }
 }
