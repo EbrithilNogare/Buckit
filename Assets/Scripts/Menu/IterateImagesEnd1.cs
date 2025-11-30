@@ -1,23 +1,24 @@
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IterateImagesEnd1 : MonoBehaviour
 {
     public GameObject parent;
-    public SpriteRenderer Text;
+    public Image Text;
     public GameObject swag;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnEnable()
     {
-        parent.transform.GetChild(0).GetComponent<SpriteRenderer>().DOFade(1, 1f).OnComplete(() =>
+        parent.transform.GetChild(0).GetComponent<Image>().DOFade(1, 1f).OnComplete(() =>
         {
-            parent.transform.GetChild(1).GetComponent<SpriteRenderer>().DOFade(1, 0);
-            parent.transform.GetChild(2).GetComponent<SpriteRenderer>().DOFade(1, 0);
+            parent.transform.GetChild(1).GetComponent<Image>().DOFade(1, 0);
+            parent.transform.GetChild(2).GetComponent<Image>().DOFade(1, 0);
             Text.DOFade(1, 2f).OnComplete(() =>
             {
-                swag.transform.DOLocalMoveY(-542.42f, 5f);
+                swag.transform.DOLocalMoveY(-220f, 4f);
             });
             StartCoroutine(WaitAndDo(1f));
         });

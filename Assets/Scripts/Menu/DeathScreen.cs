@@ -1,11 +1,11 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeathScreen : MonoBehaviour
 {
-    public SpriteRenderer deathScreen;
-
-    public SpriteRenderer deathText;
+    public Image deathScreen;
+    public Image deathText;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnEnable()
