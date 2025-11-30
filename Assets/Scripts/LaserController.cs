@@ -58,6 +58,7 @@ public class LaserController : MonoBehaviour
         else if (aimingDuration > aimingTimeBeforeHit)
         {
             //kill deer
+            AudioController.Instance.PlayGunshot();
             selectedTarget.Die();
 
             // play sound
