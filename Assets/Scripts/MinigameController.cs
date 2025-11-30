@@ -66,7 +66,7 @@ public class MinigameController : MonoBehaviour
         numOfBullets = 3;
         minigameActive = false;
         SetRadialValue(0f);
-        telescopeController.LaserEnded();
+        telescopeController.StartLooking();
     }
 
     public void MinigameStart(DeerController controller)
