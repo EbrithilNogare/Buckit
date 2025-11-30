@@ -53,8 +53,7 @@ public class BoxController : MonoBehaviour
 
         minigameActive = false;
         BoxWindow.SetActive(false);
-        buckController.gameObject.GetComponent<Animator>().enabled = true;
-        buckController.gameObject.GetComponent<PlayerInput>().enabled = true;
+        buckController.EndFight();
 
         sittingController.boxIsRunning = false;
     }

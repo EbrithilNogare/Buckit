@@ -40,9 +40,17 @@ public class BuckController : MonoBehaviour
     public void OnMove(InputAction.CallbackContext ctx)
     {
         prevInput = moveInput;
-        moveInput = ctx.ReadValue<Vector2>();
-        animator.Play(moveInput == Vector2.zero ? "Idle" : "Walk");
-        if (moveInput.x != 0) sr.flipX = moveInput.x > 0;
+
+        if (ignoreInput)
+        {
+            moveInput = Vector2.zero;
+        }
+        else
+        {
+            moveInput = ctx.ReadValue<Vector2>();
+            animator.Play(moveInput == Vector2.zero ? "Idle" : "Walk");
+            if (moveInput.x != 0) sr.flipX = moveInput.x > 0;
+        }
 
         if (prevInput.magnitude == 0 && moveInput.magnitude != 0)
         {
@@ -52,6 +60,12 @@ public class BuckController : MonoBehaviour
         {
             StopCoroutine(activeStepCoroutine);
         }
+    }
+
+    internal void EndFight()
+    {
+        ignoreInput = false;
+        animator.enabled = true;
     }
 
     public void OnFight(InputAction.CallbackContext ctx)
@@ -78,10 +92,15 @@ public class BuckController : MonoBehaviour
         
     }
 
+    bool ignoreInput;
+
     public void FightStart()
     {
         animator.enabled = false;
-        gameObject.GetComponent<PlayerInput>().enabled = false;
+
+        ignoreInput = true;
+
+        //gameObject.GetComponent<PlayerInput>().enabled = false;
     }
 
     void FixedUpdate()

@@ -29,9 +29,12 @@ public class MinigameController : MonoBehaviour
     
     private DeerController deerController;
 
+    private BuckController buckController;
+
     private void Start()
     {
         RestartQuickTimeEvent();
+        buckController = FindAnyObjectByType<BuckController>();
     }
 
     // Update is called once per frame
@@ -67,6 +70,7 @@ public class MinigameController : MonoBehaviour
         minigameWindow.SetActive(false);
         numOfBullets = 3;
         minigameActive = false;
+        buckController.EndFight();
         SetRadialValue(0f);
         if (GameContinues)
             telescopeController.StartLooking();
@@ -81,6 +85,7 @@ public class MinigameController : MonoBehaviour
         GameContinues = true;
         minigameWindow.SetActive(true);
         minigameActive = true;
+        buckController.FightStart();
     }
 
     public void SetMinigameText()
@@ -125,7 +130,7 @@ public class MinigameController : MonoBehaviour
     {
         if (!minigameWindow.activeSelf) return;
         minigameActive = false;
-        
+
         if (i != quickValue)
         {
             CallDeath();
