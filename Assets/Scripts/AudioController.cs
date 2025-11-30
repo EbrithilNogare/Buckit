@@ -66,6 +66,7 @@ public class AudioController : MonoBehaviour
     [ContextMenu(nameof(PlayCollapse))]
     internal void PlayCollapse()
     {
+        Collapse.time = 0;
         Collapse.Play();
     }
 

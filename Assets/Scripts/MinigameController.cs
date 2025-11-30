@@ -52,6 +52,7 @@ public class MinigameController : MonoBehaviour
     private void CallDeath()
     {
         Debug.Log("DEATH!!!!");
+        Score.Instance.BuckAlive = false;
         AudioController.Instance.PlayGunshot();
         minigameWindow.SetActive(false);
         numOfBullets = 3;

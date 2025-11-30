@@ -60,6 +60,10 @@ public class DeerController : MonoBehaviour
 
     public void Die()
     {
+        if (death)
+            return;
+        Score.Instance.DoeCount--;
+
         AudioController.Instance.PlayDeerDeath();
         death = true;
         free = false;

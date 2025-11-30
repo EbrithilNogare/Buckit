@@ -37,11 +37,11 @@ public class SittingController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         MaxHealth = 100;
         OnSittingGainedDamage += SittingGainedDamage;
-        OnGainedMultiplier += GetMultiplier;
+        OnGainedMultiplier += AddMultiplier;
         boxIsRunning = false;
     }
 
-    private void GetMultiplier(int obj)
+    private void AddMultiplier(int obj)
     {
         multiplier += obj;
     }
@@ -93,10 +93,12 @@ public class SittingController : MonoBehaviour
         }
         else if (MaxHealth < 80 && MaxHealth >= 40)
         {
+            AudioController.Instance.PlayCollapse();
             sr.sprite = SittingSprite1;
         }
         else if (MaxHealth < 40 && MaxHealth > 0)
         {
+            AudioController.Instance.PlayCollapse();
             sr.sprite = SittingSprite2;
         }
         else
