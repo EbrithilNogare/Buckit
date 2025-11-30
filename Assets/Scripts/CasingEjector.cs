@@ -41,6 +41,7 @@ public class CasingEjector : MonoBehaviour
     {
         isReloading = true;
 
+        audioController.PlayAction();
         sittingController.RevealGuidingZone();
 
         StartCoroutine(RevealBullets(callback));
@@ -49,16 +50,16 @@ public class CasingEjector : MonoBehaviour
     private IEnumerator RevealBullets(System.Action callback)
     {
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
 
         for (int i = 0; i < transform.childCount; i++)
         {
             Transform shell = transform.GetChild(i);
             shell.gameObject.SetActive(true);
 
-            // todo add sound of adding bullet
+            AudioController.Instance.PlayReload();
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(1.4f);
         }
 
         shellIndex = transform.childCount - 1;

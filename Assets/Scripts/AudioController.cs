@@ -44,11 +44,29 @@ public class AudioController : MonoBehaviour
     [SerializeField]
     private AudioClip Gunshot;
 
+    [SerializeField]
+    private AudioSource Collapse;
+
+    [SerializeField]
+    private AudioSource Action;
+
     private void Awake()
     {
         listener = FindAnyObjectByType<AudioListener>();
 
         Instance = this;
+    }
+
+    [ContextMenu(nameof(PlayAction))]
+    internal void PlayAction()
+    {
+        Action.Play();
+    }
+
+    [ContextMenu(nameof(PlayCollapse))]
+    internal void PlayCollapse()
+    {
+        Collapse.Play();
     }
 
     [ContextMenu(nameof(PlayUberDodge))]
