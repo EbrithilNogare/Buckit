@@ -220,7 +220,7 @@ jobs:
           ITCH_USER: ebrithilnogare # 🔴 Itch username
           PACKAGE: build/${{ github.event.repository.name }}-${{ matrix.targetPlatform.platform }}
       - name: Warm up Itch.io HTML5 build
-            if: matrix.targetPlatform.platform == 'WebGL'
-            run: |
-              echo "Warming up Itch.io page..."
-              curl -L --silent --show-error "https://ebrithilnogare.itch.io/buck-it" > /dev/null # 🔴 Replace with real URL
+        if: matrix.targetPlatform.platform == 'WebGL'
+        run: |
+          echo "Warming up Itch.io page..."
+          curl -L --silent --show-error "https://ebrithilnogare.itch.io/buck-it" > /dev/null # 🔴 Replace with real URL
