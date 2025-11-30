@@ -60,6 +60,8 @@ public class TelescopeController : MonoBehaviour
     private void Start()
     {
         deers = deerManager.GetDeers();
+
+        Automation();
     }
 
     private void Update()
@@ -172,10 +174,6 @@ public class TelescopeController : MonoBehaviour
         Automation();
     }
 
-    public void Test()
-    {
-        Automation();
-    }
 
     public void MoveTo(Vector2 target)
     {
