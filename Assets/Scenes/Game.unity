@@ -302,7 +302,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.017022897, g: 0.8037735, b: 0, a: 1}
   m_FlipX: 0
@@ -2000,6 +2000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Telescope
       objectReference: {fileID: 0}
+    - target: {fileID: 6497427929578925960, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7299764728625179964, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
       propertyPath: Buck
       value: 
@@ -2016,6 +2020,10 @@ PrefabInstance:
       propertyPath: laserController
       value: 
       objectReference: {fileID: 7128489961986658888}
+    - target: {fileID: 7512035039505370541, guid: cb9627cdb4e4fe143b8b6bb9da82ecac, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

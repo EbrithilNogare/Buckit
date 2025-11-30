@@ -130,7 +130,7 @@ public class TelescopeController : MonoBehaviour
         return true;
     }
 
-    private int lookupsLeft = 4;
+    private int lookupsLeft = 2;
     public void Automation()
     {
         deers = deerManager.GetDeers();
@@ -143,7 +143,7 @@ public class TelescopeController : MonoBehaviour
                 return;
             }
 
-            lookupsLeft = 4;
+            lookupsLeft = 3;
             avoidingDeer = false;
             selectedTarget = deers[Random.Range(0, deers.Count)];
             TweenTo(new Vector2(selectedTarget.transform.position.x, selectedTarget.transform.position.y), MoveDuration)
