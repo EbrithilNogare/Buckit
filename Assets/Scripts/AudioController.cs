@@ -27,6 +27,9 @@ public class AudioController : MonoBehaviour
     private List<AudioClip> deerDodgeList = new List<AudioClip>();
 
     [SerializeField]
+    private AudioClip UberDodge;
+
+    [SerializeField]
     private AudioClip CasingEject;
 
     [SerializeField]
@@ -46,6 +49,12 @@ public class AudioController : MonoBehaviour
         listener = FindAnyObjectByType<AudioListener>();
 
         Instance = this;
+    }
+
+    [ContextMenu(nameof(PlayUberDodge))]
+    internal void PlayUberDodge()
+    {
+        AudioSource.PlayClipAtPoint(UberDodge, listener.transform.position);
     }
 
     [ContextMenu(nameof(PlayCasingEject))]

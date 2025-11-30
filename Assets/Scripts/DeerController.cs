@@ -60,6 +60,7 @@ public class DeerController : MonoBehaviour
 
     public void Die()
     {
+        AudioController.Instance.PlayDeerDeath();
         death = true;
         free = false;
         animator.Play("Die");

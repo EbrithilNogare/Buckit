@@ -88,6 +88,7 @@ public class BoxController : MonoBehaviour
     {
         sittingController.OnSittingGainedDamage?.Invoke();
         buckController.FightSwap();
+        AudioController.Instance.PlayWoodHit();
     }
 
     private void PressedQ()
