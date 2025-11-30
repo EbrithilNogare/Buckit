@@ -1,0 +1,6214 @@
+fileFormatVersion: 2
+guid: 2548cf48ac7422d48aef449cc9b30ec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1474224021176862780
+    second: laser beam_0
+  - first:
+      213: -7968391095442809081
+    second: laser beam_1
+  - first:
+      213: 2824603536692869716
+    second: laser beam_2
+  - first:
+      213: 6389905014585816234
+    second: laser beam_3
+  - first:
+      213: 6577132652845558093
+    second: laser beam_4
+  - first:
+      213: -5202353722980614937
+    second: laser beam_5
+  - first:
+      213: -250917824350543766
+    second: laser beam_6
+  - first:
+      213: -7357105842278624179
+    second: laser beam_7
+  - first:
+      213: -4185214688052052029
+    second: laser beam_8
+  - first:
+      213: 4939985945818774632
+    second: laser beam_9
+  - first:
+      213: 4411697500621449148
+    second: laser beam_10
+  - first:
+      213: 9025794164346622574
+    second: laser beam_11
+  - first:
+      213: -7682637337057353186
+    second: laser beam_12
+  - first:
+      213: 693325227368932388
+    second: laser beam_13
+  - first:
+      213: -7445874971803893811
+    second: laser beam_14
+  - first:
+      213: -5177008904412932644
+    second: laser beam_15
+  - first:
+      213: 2643833823446250264
+    second: laser beam_16
+  - first:
+      213: 5536244007297217690
+    second: laser beam_17
+  - first:
+      213: -4311501607538059434
+    second: laser beam_18
+  - first:
+      213: -1706926424681901417
+    second: laser beam_19
+  - first:
+      213: -4815726557520909263
+    second: laser beam_20
+  - first:
+      213: -3157596578826089180
+    second: laser beam_21
+  - first:
+      213: -5374060534202438927
+    second: laser beam_22
+  - first:
+      213: 82868757904924425
+    second: laser beam_23
+  - first:
+      213: -6626840127006409210
+    second: laser beam_24
+  - first:
+      213: -8888804926466513926
+    second: laser beam_25
+  - first:
+      213: -757443262643296511
+    second: laser beam_26
+  - first:
+      213: 409056779494757194
+    second: laser beam_27
+  - first:
+      213: 4053722813212239635
+    second: laser beam_28
+  - first:
+      213: 5988848975213582394
+    second: laser beam_29
+  - first:
+      213: 6178756968501619871
+    second: laser beam_30
+  - first:
+      213: -7680156127400501557
+    second: laser beam_31
+  - first:
+      213: 390209065347582844
+    second: laser beam_32
+  - first:
+      213: 3459662144733608253
+    second: laser beam_33
+  - first:
+      213: -553167792548271942
+    second: laser beam_34
+  - first:
+      213: 8601211240270409197
+    second: laser beam_35
+  - first:
+      213: -3645334342906439825
+    second: laser beam_36
+  - first:
+      213: 3686187488328796900
+    second: laser beam_37
+  - first:
+      213: 1336240209413614713
+    second: laser beam_38
+  - first:
+      213: 7313250595290888888
+    second: laser beam_39
+  - first:
+      213: -8475814923154030997
+    second: laser beam_40
+  - first:
+      213: -8602625458281706621
+    second: laser beam_41
+  - first:
+      213: -422209148884607132
+    second: laser beam_42
+  - first:
+      213: -8796231561670744752
+    second: laser beam_43
+  - first:
+      213: 2566374053782489530
+    second: laser beam_44
+  - first:
+      213: -5556916572585851470
+    second: laser beam_45
+  - first:
+      213: 6047476932372898657
+    second: laser beam_46
+  - first:
+      213: 8180649792678830242
+    second: laser beam_47
+  - first:
+      213: -109895500466971702
+    second: laser beam_48
+  - first:
+      213: 7452659847829806452
+    second: laser beam_49
+  - first:
+      213: 5132068629113757179
+    second: laser beam_50
+  - first:
+      213: -548103888254273473
+    second: laser beam_51
+  - first:
+      213: -830110898196380646
+    second: laser beam_52
+  - first:
+      213: -1571239512738284722
+    second: laser beam_53
+  - first:
+      213: 161064220788349650
+    second: laser beam_54
+  - first:
+      213: 4314929991682167028
+    second: laser beam_55
+  - first:
+      213: 8341873162676929009
+    second: laser beam_56
+  - first:
+      213: -343451323219894450
+    second: laser beam_57
+  - first:
+      213: -4135012414591142465
+    second: laser beam_58
+  - first:
+      213: 7568660794542092756
+    second: laser beam_59
+  - first:
+      213: -6959954594000154519
+    second: laser beam_60
+  - first:
+      213: -1093206969844864292
+    second: laser beam_61
+  - first:
+      213: -6690919125505946036
+    second: laser beam_62
+  - first:
+      213: -485707704577603647
+    second: laser beam_63
+  - first:
+      213: -880037718234648468
+    second: laser beam_64
+  - first:
+      213: -2954282620676929969
+    second: laser beam_65
+  - first:
+      213: -9015772944030622932
+    second: laser beam_66
+  - first:
+      213: 5036237912960262801
+    second: laser beam_67
+  - first:
+      213: 3054124410226971438
+    second: laser beam_68
+  - first:
+      213: -7205516650553836382
+    second: laser beam_69
+  - first:
+      213: -8203714874247405829
+    second: laser beam_70
+  - first:
+      213: 7349808036912874962
+    second: laser beam_71
+  - first:
+      213: -739296623234721205
+    second: laser beam_72
+  - first:
+      213: 1032778231841114134
+    second: laser beam_73
+  - first:
+      213: -556718399002613096
+    second: laser beam_74
+  - first:
+      213: 230391901240088208
+    second: laser beam_75
+  - first:
+      213: 2178383114775279879
+    second: laser beam_76
+  - first:
+      213: -1518318819971772873
+    second: laser beam_77
+  - first:
+      213: 4779389535779130351
+    second: laser beam_78
+  - first:
+      213: 4737265407167539266
+    second: laser beam_79
+  - first:
+      213: -2693145949796705559
+    second: laser beam_80
+  - first:
+      213: -8573593292575399309
+    second: laser beam_81
+  - first:
+      213: 2277018664895045414
+    second: laser beam_82
+  - first:
+      213: -3519853155571315074
+    second: laser beam_83
+  - first:
+      213: -595176570960924545
+    second: laser beam_84
+  - first:
+      213: -4175447361942182508
+    second: laser beam_85
+  - first:
+      213: 1937235369690169580
+    second: laser beam_86
+  - first:
+      213: 4813311165681634845
+    second: laser beam_87
+  - first:
+      213: 8414319816492563992
+    second: laser beam_88
+  - first:
+      213: 4943258247550688650
+    second: laser beam_89
+  - first:
+      213: -5487159959660893651
+    second: laser beam_90
+  - first:
+      213: -4096175277371692501
+    second: laser beam_91
+  - first:
+      213: -7039295052025657837
+    second: laser beam_92
+  - first:
+      213: -3911454823292617010
+    second: laser beam_93
+  - first:
+      213: -3387174995436342491
+    second: laser beam_94
+  - first:
+      213: 6979117716547587083
+    second: laser beam_95
+  - first:
+      213: -231373967669260349
+    second: laser beam_96
+  - first:
+      213: 3402168742361070911
+    second: laser beam_97
+  - first:
+      213: 7706990627520396960
+    second: laser beam_98
+  - first:
+      213: 4828807900597566172
+    second: laser beam_99
+  - first:
+      213: 7434781978912304454
+    second: laser beam_100
+  - first:
+      213: -2006585165631727341
+    second: laser beam_101
+  - first:
+      213: -3098542926344401561
+    second: laser beam_102
+  - first:
+      213: -7929452290597579698
+    second: laser beam_103
+  - first:
+      213: 3169975404150753243
+    second: laser beam_104
+  - first:
+      213: -4903145187120574578
+    second: laser beam_105
+  - first:
+      213: 3943060617425910733
+    second: laser beam_106
+  - first:
+      213: -1660372313346553384
+    second: laser beam_107
+  - first:
+      213: 2939431178015639243
+    second: laser beam_108
+  - first:
+      213: -7582523885493787137
+    second: laser beam_109
+  - first:
+      213: 2695404101520303278
+    second: laser beam_110
+  - first:
+      213: -3352910062461714527
+    second: laser beam_111
+  - first:
+      213: -3406541498690665422
+    second: laser beam_112
+  - first:
+      213: 8925150319450609416
+    second: laser beam_113
+  - first:
+      213: -3170178709511523889
+    second: laser beam_114
+  - first:
+      213: -9157240430878484648
+    second: laser beam_115
+  - first:
+      213: -6209669870979626879
+    second: laser beam_116
+  - first:
+      213: 6294729974941467379
+    second: laser beam_117
+  - first:
+      213: -6035033769148133122
+    second: laser beam_118
+  - first:
+      213: 5108413879469524603
+    second: laser beam_119
+  - first:
+      213: 1879092152687771902
+    second: laser beam_120
+  - first:
+      213: 7433648619635645073
+    second: laser beam_121
+  - first:
+      213: 5525326590385339331
+    second: laser beam_122
+  - first:
+      213: -665108620656128747
+    second: laser beam_123
+  - first:
+      213: -9202697770908966876
+    second: laser beam_124
+  - first:
+      213: -4016251510647953786
+    second: laser beam_125
+  - first:
+      213: -2478075447552256283
+    second: laser beam_126
+  - first:
+      213: 7604260810668651043
+    second: laser beam_127
+  - first:
+      213: -5546386982054883755
+    second: laser beam_128
+  - first:
+      213: -3602604310759528039
+    second: laser beam_129
+  - first:
+      213: 3121231462762475294
+    second: laser beam_130
+  - first:
+      213: -1928352288263742137
+    second: laser beam_131
+  - first:
+      213: 5599251019039094462
+    second: laser beam_132
+  - first:
+      213: 8783609690811985020
+    second: laser beam_133
+  - first:
+      213: -3044503136932465558
+    second: laser beam_134
+  - first:
+      213: 8430311352204136993
+    second: laser beam_135
+  - first:
+      213: -6103613806232727850
+    second: laser beam_136
+  - first:
+      213: 6709563555645049450
+    second: laser beam_137
+  - first:
+      213: 6884573354270910229
+    second: laser beam_138
+  - first:
+      213: 507616018759792902
+    second: laser beam_139
+  - first:
+      213: -5686789673317007829
+    second: laser beam_140
+  - first:
+      213: -6430432844876272952
+    second: laser beam_141
+  - first:
+      213: -6862029075489367175
+    second: laser beam_142
+  - first:
+      213: 8240768167471733327
+    second: laser beam_143
+  - first:
+      213: -1671147950769420046
+    second: laser beam_144
+  - first:
+      213: -1731769440270558377
+    second: laser beam_145
+  - first:
+      213: 5034654168119200613
+    second: laser beam_146
+  - first:
+      213: 1705746545169860224
+    second: laser beam_147
+  - first:
+      213: 3814157857875675661
+    second: laser beam_148
+  - first:
+      213: -1389419710470242121
+    second: laser beam_149
+  - first:
+      213: 4509520513757460124
+    second: laser beam_150
+  - first:
+      213: -5975272390221461829
+    second: laser beam_151
+  - first:
+      213: 902706464471369675
+    second: laser beam_152
+  - first:
+      213: 5046842654517294077
+    second: laser beam_153
+  - first:
+      213: -7060415320852813170
+    second: laser beam_154
+  - first:
+      213: 5044066933976798834
+    second: laser beam_155
+  - first:
+      213: -3121329863579787247
+    second: laser beam_156
+  - first:
+      213: -3143916832545731983
+    second: laser beam_157
+  - first:
+      213: -1396037643411719559
+    second: laser beam_158
+  - first:
+      213: -8614656161978161651
+    second: laser beam_159
+  - first:
+      213: 3719183684791358086
+    second: laser beam_160
+  - first:
+      213: 8886995591313874008
+    second: laser beam_161
+  - first:
+      213: -5758898984170703526
+    second: laser beam_162
+  - first:
+      213: 1987049542464151792
+    second: laser beam_163
+  - first:
+      213: -4767428847817646300
+    second: laser beam_164
+  - first:
+      213: -8468344392201552818
+    second: laser beam_165
+  - first:
+      213: 1741262198246794072
+    second: laser beam_166
+  - first:
+      213: -8544106246147737917
+    second: laser beam_167
+  - first:
+      213: 763656168185414978
+    second: laser beam_168
+  - first:
+      213: 7412386630036374756
+    second: laser beam_169
+  - first:
+      213: 5168329959716944626
+    second: laser beam_170
+  - first:
+      213: 5084940366701218223
+    second: laser beam_171
+  - first:
+      213: 4843394621845261555
+    second: laser beam_172
+  - first:
+      213: -3442261505124362911
+    second: laser beam_173
+  - first:
+      213: -5320062945752334851
+    second: laser beam_174
+  - first:
+      213: 5041761312489559695
+    second: laser beam_175
+  - first:
+      213: 325695964336580917
+    second: laser beam_176
+  - first:
+      213: -712968799567508116
+    second: laser beam_177
+  - first:
+      213: 2948302639239884827
+    second: laser beam_178
+  - first:
+      213: 7354089651073793515
+    second: laser beam_179
+  - first:
+      213: 1228610220051425150
+    second: laser beam_180
+  - first:
+      213: -5871664495929107567
+    second: laser beam_181
+  - first:
+      213: -5260845309963842595
+    second: laser beam_182
+  - first:
+      213: -7392283444703543261
+    second: laser beam_183
+  - first:
+      213: 1876492676233452071
+    second: laser beam_184
+  - first:
+      213: -7093555232830352957
+    second: laser beam_185
+  - first:
+      213: 3189071704544744724
+    second: laser beam_186
+  - first:
+      213: -5291520464414186839
+    second: laser beam_187
+  - first:
+      213: -8981954497961213280
+    second: laser beam_188
+  - first:
+      213: 4607328059357772629
+    second: laser beam_189
+  - first:
+      213: -6914282160131308392
+    second: laser beam_190
+  - first:
+      213: 9214315343542124733
+    second: laser beam_191
+  - first:
+      213: -7110350824453956671
+    second: laser beam_192
+  - first:
+      213: -469138928185181019
+    second: laser beam_193
+  - first:
+      213: -1205693332356389854
+    second: laser beam_194
+  - first:
+      213: 4710808412184328139
+    second: laser beam_195
+  - first:
+      213: -3942271704614498953
+    second: laser beam_196
+  - first:
+      213: -4255407880821921645
+    second: laser beam_197
+  - first:
+      213: 5661381418326913855
+    second: laser beam_198
+  - first:
+      213: 8244064342976261562
+    second: laser beam_199
+  - first:
+      213: -9089286121088022211
+    second: laser beam_200
+  - first:
+      213: 4207344828259748433
+    second: laser beam_201
+  - first:
+      213: -469327723431556474
+    second: laser beam_202
+  - first:
+      213: -4419246716807410155
+    second: laser beam_203
+  - first:
+      213: 329942880143426965
+    second: laser beam_204
+  - first:
+      213: 7548760838654391280
+    second: laser beam_205
+  - first:
+      213: 7295825581871791791
+    second: laser beam_206
+  - first:
+      213: 6690743793386321089
+    second: laser beam_207
+  - first:
+      213: -2396291614725689426
+    second: laser beam_208
+  - first:
+      213: 9131614566856736076
+    second: laser beam_209
+  - first:
+      213: -1904865738708965308
+    second: laser beam_210
+  - first:
+      213: 4973424185395235112
+    second: laser beam_211
+  - first:
+      213: 23476176438374949
+    second: laser beam_212
+  - first:
+      213: 7542753894738926753
+    second: laser beam_213
+  - first:
+      213: 7603747413252391199
+    second: laser beam_214
+  - first:
+      213: -4185282373745289134
+    second: laser beam_215
+  - first:
+      213: 1650535759221609483
+    second: laser beam_216
+  - first:
+      213: -6602067140025913800
+    second: laser beam_217
+  - first:
+      213: 6354139767312255737
+    second: laser beam_218
+  - first:
+      213: 5175321613711627891
+    second: laser beam_219
+  - first:
+      213: 7827290698389858326
+    second: laser beam_220
+  - first:
+      213: 8246768655119723591
+    second: laser beam_221
+  - first:
+      213: -7559311818322570000
+    second: laser beam_222
+  - first:
+      213: 983940682990402197
+    second: laser beam_223
+  - first:
+      213: -5632883841486196837
+    second: laser beam_224
+  - first:
+      213: -8148192689008911834
+    second: laser beam_225
+  - first:
+      213: 8522323347684330248
+    second: laser beam_226
+  - first:
+      213: 175928471045162488
+    second: laser beam_227
+  - first:
+      213: 1967919004878643771
+    second: laser beam_228
+  - first:
+      213: 1064237963228160055
+    second: laser beam_229
+  - first:
+      213: -5109038601277869410
+    second: laser beam_230
+  - first:
+      213: -180925318676987846
+    second: laser beam_231
+  - first:
+      213: 7110611382215375265
+    second: laser beam_232
+  - first:
+      213: 6994402177244038517
+    second: laser beam_233
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: laser beam_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 249
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b76240118a8be0800000000000000
+      internalID: -1474224021176862780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fdebc54869a6190800000000000000
+      internalID: -7968391095442809081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45af3e383f1033720800000000000000
+      internalID: 2824603536692869716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 347
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4ffde61c08da850800000000000000
+      internalID: 6389905014585816234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 354
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d496b75fc4ba64b50800000000000000
+      internalID: 6577132652845558093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 360
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec3fc92ad68dc7b0800000000000000
+      internalID: -5202353722980614937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 355
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60a5c3719f848cf0800000000000000
+      internalID: -250917824350543766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 346
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d441800573f46e990800000000000000
+      internalID: -7357105842278624179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 338
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cff8e95a612be5c0800000000000000
+      internalID: -4185214688052052029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 363
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c33f76b0b5e8440800000000000000
+      internalID: 4939985945818774632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 373
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7250da08f793d30800000000000000
+      internalID: 4411697500621449148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 362
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e629ca5c8ff024d70800000000000000
+      internalID: 9025794164346622574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 347
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e122b8adb0ac16590800000000000000
+      internalID: -7682637337057353186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 355
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4246423fe9f2f9900800000000000000
+      internalID: 693325227368932388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_14
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 352
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf38afb920faa890800000000000000
+      internalID: -7445874971803893811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 366
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5de6594d19728b0800000000000000
+      internalID: -5177008904412932644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 360
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8133da3dad8c0b420800000000000000
+      internalID: 2643833823446250264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 350
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f5d4a790b4dc40800000000000000
+      internalID: 5536244007297217690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_18
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 354
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6571b2a91287a24c0800000000000000
+      internalID: -4311501607538059434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 351
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7929b1fd577cf48e0800000000000000
+      internalID: -1706926424681901417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 345
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c2d83f53a1b2db0800000000000000
+      internalID: -4815726557520909263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 352
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d051724a6fd24d0800000000000000
+      internalID: -3157596578826089180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 358
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faea69ca608b65b0800000000000000
+      internalID: -5374060534202438927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 359
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f96ed32b8662100800000000000000
+      internalID: 82868757904924425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 354
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e7a76d30cb804a0800000000000000
+      internalID: -6626840127006409210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_25
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 352
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3a838a30f94a480800000000000000
+      internalID: -8888804926466513926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 360
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10722a0ad550d75f0800000000000000
+      internalID: -757443262643296511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_27
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 352
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4310c249f24da500800000000000000
+      internalID: 409056779494757194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_28
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317a96bcb67b14830800000000000000
+      internalID: 4053722813212239635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 371
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a385115a96aac1350800000000000000
+      internalID: 5988848975213582394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_30
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 357
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c2205f9ba5fb550800000000000000
+      internalID: 6178756968501619871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 389
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bced0ce71ba9a6590800000000000000
+      internalID: -7680156127400501557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 352
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b0e28d31d4a6500800000000000000
+      internalID: 390209065347582844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 356
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3976bbf360330030800000000000000
+      internalID: 3459662144733608253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 350
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab829ffc2d0c258f0800000000000000
+      internalID: -553167792548271942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 352
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded2a664d04ad5770800000000000000
+      internalID: 8601211240270409197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_36
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 350
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67978b9abb296dc0800000000000000
+      internalID: -3645334342906439825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_37
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eac3598df7f72330800000000000000
+      internalID: 3686187488328796900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_38
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 384
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c21b804674b8210800000000000000
+      internalID: 1336240209413614713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_39
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 382
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba3abd4ba2ed7560800000000000000
+      internalID: 7313250595290888888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 350
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ef273fb3bdf5a80800000000000000
+      internalID: -8475814923154030997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_41
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 348
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b036f69b55d9880800000000000000
+      internalID: -8602625458281706621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_42
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 362
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f10db1403042af0800000000000000
+      internalID: -422209148884607132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 351
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0552984cff18de580800000000000000
+      internalID: -8796231561670744752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_44
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 389
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab90c7cca979d9320800000000000000
+      internalID: 2566374053782489530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 377
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b50a8ca1ddd1e2b0800000000000000
+      internalID: -5556916572585851470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 352
+        width: 138
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163a475aa34fce350800000000000000
+      internalID: 6047476932372898657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_47
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 350
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ae7cb4a1878170800000000000000
+      internalID: 8180649792678830242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_48
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 360
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb9044ef92997ef0800000000000000
+      internalID: -109895500466971702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_49
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 378
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d56bd45aa2d6760800000000000000
+      internalID: 7452659847829806452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_50
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 348
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd50413a35c83740800000000000000
+      internalID: 5132068629113757179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_51
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 352
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38f798ea6eb468f0800000000000000
+      internalID: -548103888254273473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 364
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1403d4498ada74f0800000000000000
+      internalID: -830110898196380646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_53
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 381
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b3d2aecf5d13ae0800000000000000
+      internalID: -1571239512738284722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_54
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 392
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da5d123e073c3200800000000000000
+      internalID: 161064220788349650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_55
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 352
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f015e847f5b1eb30800000000000000
+      internalID: 4314929991682167028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_56
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 344
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f109beb17944c370800000000000000
+      internalID: 8341873162676929009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_57
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 349
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f17d957d0db3bf0800000000000000
+      internalID: -343451323219894450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 349
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5f67efd1c7d96c0800000000000000
+      internalID: -4135012414591142465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_59
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 356
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d17b1464e8490960800000000000000
+      internalID: 7568660794542092756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 356
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960d5c31c26496f90800000000000000
+      internalID: -6959954594000154519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_61
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 361
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda6a609d0624d0f0800000000000000
+      internalID: -1093206969844864292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_62
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 344
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ec95f51841523a0800000000000000
+      internalID: -6690919125505946036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_63
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 378
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c74bf38a6b6249f0800000000000000
+      internalID: -485707704577603647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_64
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 352
+        width: 148
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60bdaf9b5a79c3f0800000000000000
+      internalID: -880037718234648468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_65
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f460174eb974007d0800000000000000
+      internalID: -2954282620676929969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_66
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 363
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b1a77664a81e280800000000000000
+      internalID: -9015772944030622932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_67
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 346
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192e95ed2bf44e540800000000000000
+      internalID: 5036237912960262801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 395
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e239d6b38fd626a20800000000000000
+      internalID: 3054124410226971438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_69
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 362
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac739468ccd00c90800000000000000
+      internalID: -7205516650553836382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_70
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 381
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe15e979cc862e80800000000000000
+      internalID: -8203714874247405829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_71
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 363
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c087f773cff560800000000000000
+      internalID: 7349808036912874962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_72
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 357
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ad27c53ad7db5f0800000000000000
+      internalID: -739296623234721205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_73
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 350
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61845a8745a255e00800000000000000
+      internalID: 1032778231841114134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_74
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 365
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a6683d0932648f0800000000000000
+      internalID: -556718399002613096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_75
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 360
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096da88a634823300800000000000000
+      internalID: 230391901240088208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_76
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 351
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b3ecb6eb2b3e10800000000000000
+      internalID: 2178383114775279879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_77
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 355
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ecacfd319ddeae0800000000000000
+      internalID: -1518318819971772873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_78
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 361
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb8553e57dc35240800000000000000
+      internalID: 4779389535779130351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 377
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248a7f8e9c52eb140800000000000000
+      internalID: 4737265407167539266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_80
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 357
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ead51e070600aad0800000000000000
+      internalID: -2693145949796705559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_81
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 349
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3722f53435a740980800000000000000
+      internalID: -8573593292575399309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd00c5968999f10800000000000000
+      internalID: 2277018664895045414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_83
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 360
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e42a83438f62fc0800000000000000
+      internalID: -3519853155571315074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_84
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 371
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703d35ef028db7f0800000000000000
+      internalID: -595176570960924545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_85
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 351
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495281d2fb4dd06c0800000000000000
+      internalID: -4175447361942182508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_86
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 376
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce084b80e4172ea10800000000000000
+      internalID: 1937235369690169580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_87
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 355
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e00efc0015cc240800000000000000
+      internalID: 4813311165681634845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_88
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 350
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eb198ca4ba5c470800000000000000
+      internalID: 8414319816492563992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_89
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 358
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d57468f2bf99440800000000000000
+      internalID: 4943258247550688650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_90
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 335
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a6aa2c611b9d3b0800000000000000
+      internalID: -5487159959660893651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 361
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ae586a9467727c0800000000000000
+      internalID: -4096175277371692501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_92
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 367
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31688da22766f4e90800000000000000
+      internalID: -7039295052025657837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_93
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 350
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eceb7aedf88b7b9c0800000000000000
+      internalID: -3911454823292617010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_94
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 366
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5237ee4a9465ef0d0800000000000000
+      internalID: -3387174995436342491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_95
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 354
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c4474169ecad060800000000000000
+      internalID: 6979117716547587083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 366
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf0dce2a9ef9ccf0800000000000000
+      internalID: -231373967669260349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_97
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 349
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d7e5a127ee63f20800000000000000
+      internalID: 3402168742361070911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_98
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 353
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae3e90742bb4fa60800000000000000
+      internalID: 7706990627520396960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_99
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 158
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdab7b3933f530340800000000000000
+      internalID: 4828807900597566172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_100
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 153
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d2b8391d6ad2760800000000000000
+      internalID: 7434781978912304454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_101
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 143
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319d3f65c6d2724e0800000000000000
+      internalID: -2006585165631727341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_102
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 152
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d41f110a3cff4d0800000000000000
+      internalID: -3098542926344401561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_103
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 154
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44168b572de4f190800000000000000
+      internalID: -7929452290597579698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_104
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 157
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd78127b5d30efb20800000000000000
+      internalID: 3169975404150753243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_105
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 153
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f03872e6784fbb0800000000000000
+      internalID: -4903145187120574578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_106
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbf0858db098b630800000000000000
+      internalID: 3943060617425910733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_107
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 158
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9c5149d2c25f8e0800000000000000
+      internalID: -1660372313346553384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_108
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 150
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc684572515fac820800000000000000
+      internalID: 2939431178015639243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_109
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 137
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff56a3833b675c690800000000000000
+      internalID: -7582523885493787137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_110
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 154
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4af3ddfbff76520800000000000000
+      internalID: 2695404101520303278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_111
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 152
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aff22b00121871d0800000000000000
+      internalID: -3352910062461714527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_112
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2348ae93e8889b0d0800000000000000
+      internalID: -3406541498690665422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 149
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80751d59de08cdb70800000000000000
+      internalID: 8925150319450609416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_114
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 147
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc13f0192434104d0800000000000000
+      internalID: -3170178709511523889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_115
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 158
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85794a26852fae080800000000000000
+      internalID: -9157240430878484648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_116
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 112
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18840df0722d2d9a0800000000000000
+      internalID: -6209669870979626879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_117
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 159
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2c361bf8f5b5750800000000000000
+      internalID: 6294729974941467379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_118
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 155
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0507e03c04f3ca0800000000000000
+      internalID: -6035033769148133122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_119
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 159
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76c47b9b5bb4e640800000000000000
+      internalID: 5108413879469524603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_120
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 153
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0cd256b50e31a10800000000000000
+      internalID: 1879092152687771902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_121
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 159
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a947ec800a92760800000000000000
+      internalID: 7433648619635645073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_122
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 150
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb30ff6247edac40800000000000000
+      internalID: 5525326590385339331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_123
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 153
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dcdb0cb3f05c6f0800000000000000
+      internalID: -665108620656128747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_124
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 160
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42021b5a223794080800000000000000
+      internalID: -9202697770908966876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_125
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 148
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e333b7886348c0800000000000000
+      internalID: -4016251510647953786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_126
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 156
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6d706828b1c9dd0800000000000000
+      internalID: -2478075447552256283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_127
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 138
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322345f0be2c78960800000000000000
+      internalID: 7604260810668651043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_128
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 154
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e84c30d664703b0800000000000000
+      internalID: -5546386982054883755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_129
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 155
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99923ee777af00ec0800000000000000
+      internalID: -3602604310759528039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_130
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 160
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1feab77a77d05b20800000000000000
+      internalID: 3121231462762475294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_131
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 155
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d5a388fcd1d35e0800000000000000
+      internalID: -1928352288263742137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_132
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 148
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b11eb22984bd40800000000000000
+      internalID: 5599251019039094462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_133
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 158
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ce68ae976a5e970800000000000000
+      internalID: 8783609690811985020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_134
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 155
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64f3950780cfb5d0800000000000000
+      internalID: -3044503136932465558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 135
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1221216528b7ef470800000000000000
+      internalID: 8430311352204136993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_136
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 152
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de0451e49b9b4ba0800000000000000
+      internalID: -6103613806232727850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_137
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 155
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a412c41882d1d50800000000000000
+      internalID: 6709563555645049450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_138
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 160
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517ef6b5dfaea8f50800000000000000
+      internalID: 6884573354270910229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_139
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 151
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609b970641a6b0700800000000000000
+      internalID: 507616018759792902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_140
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 146
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e74990ce67411b0800000000000000
+      internalID: -5686789673317007829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_141
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 160
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca2521c56382c6a0800000000000000
+      internalID: -6430432844876272952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_142
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 117
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bdd0599ec25c0a0800000000000000
+      internalID: -6862029075489367175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_143
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 150
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4adf72acf61d5270800000000000000
+      internalID: 8240768167471733327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_144
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 156
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8444bfac3eec8e0800000000000000
+      internalID: -1671147950769420046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_145
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bdbcf8ed487f7e0800000000000000
+      internalID: -1731769440270558377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_146
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 151
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b4fa98a4faed540800000000000000
+      internalID: 5034654168119200613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_147
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 156
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08603b502770ca710800000000000000
+      internalID: 1705746545169860224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_148
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 156
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ac1fb0d5c9ee430800000000000000
+      internalID: 3814157857875675661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_149
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 153
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0ce71822ac7bce0800000000000000
+      internalID: -1389419710470242121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_150
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 142
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96b9d9c309059e30800000000000000
+      internalID: 4509520513757460124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_151
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 156
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb686a06b61931da0800000000000000
+      internalID: -5975272390221461829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_152
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 137
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7c3472fbe078c00800000000000000
+      internalID: 902706464471369675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_153
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 149
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3facba7acf90640800000000000000
+      internalID: 5046842654517294077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_154
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 141
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa7d16cad540e90800000000000000
+      internalID: -7060415320852813170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_155
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 146
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2761bfed620200640800000000000000
+      internalID: 5044066933976798834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_156
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 150
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110228ec60fcea4d0800000000000000
+      internalID: -3121329863579787247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_157
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 143
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a8db84c409e54d0800000000000000
+      internalID: -3143916832545731983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_158
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 146
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97afe5be82740ace0800000000000000
+      internalID: -1396037643411719559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_159
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 138
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d066923fcd7927880800000000000000
+      internalID: -8614656161978161651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_160
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 145
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682da623bd13d9330800000000000000
+      internalID: 3719183684791358086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_161
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 142
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cd9bca763f45b70800000000000000
+      internalID: 8886995591313874008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_162
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 131
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55b527c2e74410b0800000000000000
+      internalID: -5758898984170703526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_163
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 147
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0ada1f70b639b10800000000000000
+      internalID: 1987049542464151792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_164
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f11e9c8b0b6ddb0800000000000000
+      internalID: -4767428847817646300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_165
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 145
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cb72b74a56a7a80800000000000000
+      internalID: -8468344392201552818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_166
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 153
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853e0536eb43a2810800000000000000
+      internalID: 1741262198246794072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_167
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 141
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6fa2343ac3d6980800000000000000
+      internalID: -8544106246147737917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_168
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 153
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2454a3b2d3d099a00800000000000000
+      internalID: 763656168185414978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_169
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 147
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e44c251e561ed660800000000000000
+      internalID: 7412386630036374756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_170
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 144
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faffe227b899b740800000000000000
+      internalID: 5168329959716944626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_171
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 130
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa945458256519640800000000000000
+      internalID: 5084940366701218223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_172
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 149
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fccf164fb1373340800000000000000
+      internalID: 4843394621845261555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_173
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 148
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1659f032661aa30d0800000000000000
+      internalID: -3442261505124362911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_174
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 152
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdb6bf00f65b26b0800000000000000
+      internalID: -5320062945752334851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_175
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 141
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f865f39833fe7f540800000000000000
+      internalID: 5041761312489559695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_176
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 143
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5396f0301ca158400800000000000000
+      internalID: 325695964336580917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_177
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 125
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d87dd77a60b16f0800000000000000
+      internalID: -712968799567508116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_178
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 133
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b107d3e21a97ae820800000000000000
+      internalID: 2948302639239884827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_179
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 146
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed31a2f299fe0660800000000000000
+      internalID: 7354089651073793515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_180
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7764955c76ec0110800000000000000
+      internalID: 1228610220051425150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_181
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b5fd71048a38ea0800000000000000
+      internalID: -5871664495929107567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_182
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 135
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb43515019bdf6b0800000000000000
+      internalID: -5260845309963842595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_183
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 139
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320c17f7f55596990800000000000000
+      internalID: -7392283444703543261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_184
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a548e9524aa0a10800000000000000
+      internalID: 1876492676233452071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_185
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 137
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c198885911ae8d90800000000000000
+      internalID: -7093555232830352957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_186
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 142
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41593a0a1dbd14c20800000000000000
+      internalID: 3189071704544744724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_187
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 138
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2e1ec5c2eb096b0800000000000000
+      internalID: -5291520464414186839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_188
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 142
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2cc48f8ffa95380800000000000000
+      internalID: -8981954497961213280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_189
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 146
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bb5b5957480ff30800000000000000
+      internalID: 4607328059357772629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_190
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 142
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8948d8042098b00a0800000000000000
+      internalID: -6914282160131308392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_191
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 136
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db082444cf2dfdf70800000000000000
+      internalID: 9214315343542124733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_192
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 134
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb1400f895f25d90800000000000000
+      internalID: -7110350824453956671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_193
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acf63361a84d79f0800000000000000
+      internalID: -469138928185181019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_194
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 142
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22427d06d44844fe0800000000000000
+      internalID: -1205693332356389854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_195
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 132
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc73b2dba47206140800000000000000
+      internalID: 4710808412184328139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_196
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 140
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d016e85cc3a49c0800000000000000
+      internalID: -3942271704614498953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_197
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39826391411c1f4c0800000000000000
+      internalID: -4255407880821921645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_198
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 132
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f337f599764419e40800000000000000
+      internalID: 5661381418326913855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_199
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd609c47dcc86270800000000000000
+      internalID: 8244064342976261562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_200
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 136
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3909a21e6e5cd180800000000000000
+      internalID: -9089286121088022211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_201
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 131
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15acfff64dd736a30800000000000000
+      internalID: 4207344828259748433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_202
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a8e911cec9c79f0800000000000000
+      internalID: -469327723431556474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_203
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 129
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e02e5768eaba2c0800000000000000
+      internalID: -4419246716807410155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_204
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5954e172d41349400800000000000000
+      internalID: 329942880143426965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_205
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 137
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3ff5adcf592c860800000000000000
+      internalID: 7548760838654391280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_206
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 138
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faefca636baff3560800000000000000
+      internalID: 7295825581871791791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_207
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 134
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4f0ffe70c4adc50800000000000000
+      internalID: 6690743793386321089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_208
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 133
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf2706f879aebed0800000000000000
+      internalID: -2396291614725689426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_209
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 136
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d374331130abe70800000000000000
+      internalID: 9131614566856736076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_210
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 130
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a07bf3be8095e0800000000000000
+      internalID: -1904865738708965308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_211
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 131
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829c1df32f6250540800000000000000
+      internalID: 4973424185395235112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_212
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 134
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5223b454577635000800000000000000
+      internalID: 23476176438374949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_213
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac9b1c34be3da860800000000000000
+      internalID: 7542753894738926753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_214
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 127
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1144b86cffe58960800000000000000
+      internalID: 7603747413252391199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_215
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 124
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258553c0bd3eae5c0800000000000000
+      internalID: -4185282373745289134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_216
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 123
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04db713781e7e610800000000000000
+      internalID: 1650535759221609483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_217
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 125
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ee9775aeeb064a0800000000000000
+      internalID: -6602067140025913800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_218
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 114
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa84d3e3707e2850800000000000000
+      internalID: 6354139767312255737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_219
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376deaf669f62d740800000000000000
+      internalID: 5175321613711627891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_220
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 115
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6182f3f5b6f10ac60800000000000000
+      internalID: 7827290698389858326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_221
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 121
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cac390668627270800000000000000
+      internalID: 8246768655119723591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_222
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 122
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f49872c3fde71790800000000000000
+      internalID: -7559311818322570000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_223
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 128
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ab2b986d8a7ad00800000000000000
+      internalID: 983940682990402197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_224
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 117
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f6d2f8df9f3d1b0800000000000000
+      internalID: -5632883841486196837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_225
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 113
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a503a9bedcbee80800000000000000
+      internalID: -8148192689008911834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_226
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 121
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b0eb77eef554670800000000000000
+      internalID: 8522323347684330248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_227
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 127
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f546862306017200800000000000000
+      internalID: 175928471045162488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_228
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 117
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32288098e37f4b10800000000000000
+      internalID: 1967919004878643771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_229
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 113
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73023baf9cee4ce00800000000000000
+      internalID: 1064237963228160055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_230
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 107
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92f213067c0919b0800000000000000
+      internalID: -5109038601277869410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_231
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30426991693d7df0800000000000000
+      internalID: -180925318676987846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_232
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9fbc4e067fda260800000000000000
+      internalID: 7110611382215375265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laser beam_233
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57589d6e8bb111160800000000000000
+      internalID: 6994402177244038517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      laser beam_0: -1474224021176862780
+      laser beam_1: -7968391095442809081
+      laser beam_10: 4411697500621449148
+      laser beam_100: 7434781978912304454
+      laser beam_101: -2006585165631727341
+      laser beam_102: -3098542926344401561
+      laser beam_103: -7929452290597579698
+      laser beam_104: 3169975404150753243
+      laser beam_105: -4903145187120574578
+      laser beam_106: 3943060617425910733
+      laser beam_107: -1660372313346553384
+      laser beam_108: 2939431178015639243
+      laser beam_109: -7582523885493787137
+      laser beam_11: 9025794164346622574
+      laser beam_110: 2695404101520303278
+      laser beam_111: -3352910062461714527
+      laser beam_112: -3406541498690665422
+      laser beam_113: 8925150319450609416
+      laser beam_114: -3170178709511523889
+      laser beam_115: -9157240430878484648
+      laser beam_116: -6209669870979626879
+      laser beam_117: 6294729974941467379
+      laser beam_118: -6035033769148133122
+      laser beam_119: 5108413879469524603
+      laser beam_12: -7682637337057353186
+      laser beam_120: 1879092152687771902
+      laser beam_121: 7433648619635645073
+      laser beam_122: 5525326590385339331
+      laser beam_123: -665108620656128747
+      laser beam_124: -9202697770908966876
+      laser beam_125: -4016251510647953786
+      laser beam_126: -2478075447552256283
+      laser beam_127: 7604260810668651043
+      laser beam_128: -5546386982054883755
+      laser beam_129: -3602604310759528039
+      laser beam_13: 693325227368932388
+      laser beam_130: 3121231462762475294
+      laser beam_131: -1928352288263742137
+      laser beam_132: 5599251019039094462
+      laser beam_133: 8783609690811985020
+      laser beam_134: -3044503136932465558
+      laser beam_135: 8430311352204136993
+      laser beam_136: -6103613806232727850
+      laser beam_137: 6709563555645049450
+      laser beam_138: 6884573354270910229
+      laser beam_139: 507616018759792902
+      laser beam_14: -7445874971803893811
+      laser beam_140: -5686789673317007829
+      laser beam_141: -6430432844876272952
+      laser beam_142: -6862029075489367175
+      laser beam_143: 8240768167471733327
+      laser beam_144: -1671147950769420046
+      laser beam_145: -1731769440270558377
+      laser beam_146: 5034654168119200613
+      laser beam_147: 1705746545169860224
+      laser beam_148: 3814157857875675661
+      laser beam_149: -1389419710470242121
+      laser beam_15: -5177008904412932644
+      laser beam_150: 4509520513757460124
+      laser beam_151: -5975272390221461829
+      laser beam_152: 902706464471369675
+      laser beam_153: 5046842654517294077
+      laser beam_154: -7060415320852813170
+      laser beam_155: 5044066933976798834
+      laser beam_156: -3121329863579787247
+      laser beam_157: -3143916832545731983
+      laser beam_158: -1396037643411719559
+      laser beam_159: -8614656161978161651
+      laser beam_16: 2643833823446250264
+      laser beam_160: 3719183684791358086
+      laser beam_161: 8886995591313874008
+      laser beam_162: -5758898984170703526
+      laser beam_163: 1987049542464151792
+      laser beam_164: -4767428847817646300
+      laser beam_165: -8468344392201552818
+      laser beam_166: 1741262198246794072
+      laser beam_167: -8544106246147737917
+      laser beam_168: 763656168185414978
+      laser beam_169: 7412386630036374756
+      laser beam_17: 5536244007297217690
+      laser beam_170: 5168329959716944626
+      laser beam_171: 5084940366701218223
+      laser beam_172: 4843394621845261555
+      laser beam_173: -3442261505124362911
+      laser beam_174: -5320062945752334851
+      laser beam_175: 5041761312489559695
+      laser beam_176: 325695964336580917
+      laser beam_177: -712968799567508116
+      laser beam_178: 2948302639239884827
+      laser beam_179: 7354089651073793515
+      laser beam_18: -4311501607538059434
+      laser beam_180: 1228610220051425150
+      laser beam_181: -5871664495929107567
+      laser beam_182: -5260845309963842595
+      laser beam_183: -7392283444703543261
+      laser beam_184: 1876492676233452071
+      laser beam_185: -7093555232830352957
+      laser beam_186: 3189071704544744724
+      laser beam_187: -5291520464414186839
+      laser beam_188: -8981954497961213280
+      laser beam_189: 4607328059357772629
+      laser beam_19: -1706926424681901417
+      laser beam_190: -6914282160131308392
+      laser beam_191: 9214315343542124733
+      laser beam_192: -7110350824453956671
+      laser beam_193: -469138928185181019
+      laser beam_194: -1205693332356389854
+      laser beam_195: 4710808412184328139
+      laser beam_196: -3942271704614498953
+      laser beam_197: -4255407880821921645
+      laser beam_198: 5661381418326913855
+      laser beam_199: 8244064342976261562
+      laser beam_2: 2824603536692869716
+      laser beam_20: -4815726557520909263
+      laser beam_200: -9089286121088022211
+      laser beam_201: 4207344828259748433
+      laser beam_202: -469327723431556474
+      laser beam_203: -4419246716807410155
+      laser beam_204: 329942880143426965
+      laser beam_205: 7548760838654391280
+      laser beam_206: 7295825581871791791
+      laser beam_207: 6690743793386321089
+      laser beam_208: -2396291614725689426
+      laser beam_209: 9131614566856736076
+      laser beam_21: -3157596578826089180
+      laser beam_210: -1904865738708965308
+      laser beam_211: 4973424185395235112
+      laser beam_212: 23476176438374949
+      laser beam_213: 7542753894738926753
+      laser beam_214: 7603747413252391199
+      laser beam_215: -4185282373745289134
+      laser beam_216: 1650535759221609483
+      laser beam_217: -6602067140025913800
+      laser beam_218: 6354139767312255737
+      laser beam_219: 5175321613711627891
+      laser beam_22: -5374060534202438927
+      laser beam_220: 7827290698389858326
+      laser beam_221: 8246768655119723591
+      laser beam_222: -7559311818322570000
+      laser beam_223: 983940682990402197
+      laser beam_224: -5632883841486196837
+      laser beam_225: -8148192689008911834
+      laser beam_226: 8522323347684330248
+      laser beam_227: 175928471045162488
+      laser beam_228: 1967919004878643771
+      laser beam_229: 1064237963228160055
+      laser beam_23: 82868757904924425
+      laser beam_230: -5109038601277869410
+      laser beam_231: -180925318676987846
+      laser beam_232: 7110611382215375265
+      laser beam_233: 6994402177244038517
+      laser beam_24: -6626840127006409210
+      laser beam_25: -8888804926466513926
+      laser beam_26: -757443262643296511
+      laser beam_27: 409056779494757194
+      laser beam_28: 4053722813212239635
+      laser beam_29: 5988848975213582394
+      laser beam_3: 6389905014585816234
+      laser beam_30: 6178756968501619871
+      laser beam_31: -7680156127400501557
+      laser beam_32: 390209065347582844
+      laser beam_33: 3459662144733608253
+      laser beam_34: -553167792548271942
+      laser beam_35: 8601211240270409197
+      laser beam_36: -3645334342906439825
+      laser beam_37: 3686187488328796900
+      laser beam_38: 1336240209413614713
+      laser beam_39: 7313250595290888888
+      laser beam_4: 6577132652845558093
+      laser beam_40: -8475814923154030997
+      laser beam_41: -8602625458281706621
+      laser beam_42: -422209148884607132
+      laser beam_43: -8796231561670744752
+      laser beam_44: 2566374053782489530
+      laser beam_45: -5556916572585851470
+      laser beam_46: 6047476932372898657
+      laser beam_47: 8180649792678830242
+      laser beam_48: -109895500466971702
+      laser beam_49: 7452659847829806452
+      laser beam_5: -5202353722980614937
+      laser beam_50: 5132068629113757179
+      laser beam_51: -548103888254273473
+      laser beam_52: -830110898196380646
+      laser beam_53: -1571239512738284722
+      laser beam_54: 161064220788349650
+      laser beam_55: 4314929991682167028
+      laser beam_56: 8341873162676929009
+      laser beam_57: -343451323219894450
+      laser beam_58: -4135012414591142465
+      laser beam_59: 7568660794542092756
+      laser beam_6: -250917824350543766
+      laser beam_60: -6959954594000154519
+      laser beam_61: -1093206969844864292
+      laser beam_62: -6690919125505946036
+      laser beam_63: -485707704577603647
+      laser beam_64: -880037718234648468
+      laser beam_65: -2954282620676929969
+      laser beam_66: -9015772944030622932
+      laser beam_67: 5036237912960262801
+      laser beam_68: 3054124410226971438
+      laser beam_69: -7205516650553836382
+      laser beam_7: -7357105842278624179
+      laser beam_70: -8203714874247405829
+      laser beam_71: 7349808036912874962
+      laser beam_72: -739296623234721205
+      laser beam_73: 1032778231841114134
+      laser beam_74: -556718399002613096
+      laser beam_75: 230391901240088208
+      laser beam_76: 2178383114775279879
+      laser beam_77: -1518318819971772873
+      laser beam_78: 4779389535779130351
+      laser beam_79: 4737265407167539266
+      laser beam_8: -4185214688052052029
+      laser beam_80: -2693145949796705559
+      laser beam_81: -8573593292575399309
+      laser beam_82: 2277018664895045414
+      laser beam_83: -3519853155571315074
+      laser beam_84: -595176570960924545
+      laser beam_85: -4175447361942182508
+      laser beam_86: 1937235369690169580
+      laser beam_87: 4813311165681634845
+      laser beam_88: 8414319816492563992
+      laser beam_89: 4943258247550688650
+      laser beam_9: 4939985945818774632
+      laser beam_90: -5487159959660893651
+      laser beam_91: -4096175277371692501
+      laser beam_92: -7039295052025657837
+      laser beam_93: -3911454823292617010
+      laser beam_94: -3387174995436342491
+      laser beam_95: 6979117716547587083
+      laser beam_96: -231373967669260349
+      laser beam_97: 3402168742361070911
+      laser beam_98: 7706990627520396960
+      laser beam_99: 4828807900597566172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
