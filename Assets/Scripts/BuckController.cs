@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,8 +14,10 @@ public class BuckController : MonoBehaviour
     Rigidbody2D rb;
     SpriteRenderer sr;
     Animator animator;
-    Vector2 moveInput, velRef;
+    Vector2 moveInput, prevInput, velRef;
     Vector2 minBound, maxBound;
+
+    Coroutine activeStepCoroutine;
 
     void Awake()
     {
@@ -36,9 +39,19 @@ public class BuckController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext ctx)
     {
+        prevInput = moveInput;
         moveInput = ctx.ReadValue<Vector2>();
         animator.Play(moveInput == Vector2.zero ? "Idle" : "Walk");
         if (moveInput.x != 0) sr.flipX = moveInput.x > 0;
+
+        if (prevInput.magnitude == 0 && moveInput.magnitude != 0)
+        {
+            activeStepCoroutine = StartCoroutine(StepCoroutine());
+        }
+        else if (prevInput.magnitude != 0 && moveInput.magnitude == 0)
+        {
+            StopCoroutine(activeStepCoroutine);
+        }
     }
 
     public void OnFight(InputAction.CallbackContext ctx)
@@ -84,5 +97,19 @@ public class BuckController : MonoBehaviour
         p.x = Mathf.Clamp(p.x, minBound.x, maxBound.x);
         p.y = Mathf.Clamp(p.y, minBound.y, maxBound.y);
         transform.position = p;
+    }
+
+    private IEnumerator StepCoroutine()
+    {
+        while(true)
+        {
+            AudioController.Instance.PlayHardStep();
+
+            yield return new WaitForSeconds(0.1f);
+
+            AudioController.Instance.PlayHardStep();
+
+            yield return new WaitForSeconds(0.3f);
+        }
     }
 }

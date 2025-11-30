@@ -43,6 +43,11 @@ public class LaserController : MonoBehaviour
 
         aimingDuration += Time.deltaTime;
 
+        if (aimingDuration > aimingTimeBeforeHit - 3f)
+        {
+            AudioController.Instance.PlayAim();
+        }
+
         if (IsBuckOnBeam())
         {
             EndLaser();
@@ -102,6 +107,7 @@ public class LaserController : MonoBehaviour
     {
         isAiming = false;
         gameObject.SetActive(false);
+        AudioController.Instance.StopAim();
     }
 
     public void Test()
