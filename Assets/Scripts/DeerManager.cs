@@ -1,6 +1,9 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class DeerManager : MonoBehaviour
 {
@@ -10,6 +13,7 @@ public class DeerManager : MonoBehaviour
     public GameObject deerPrefab5;
     public GameObject SpawnPointsParent;
     public GameObject DeathDeersParent;
+    public TextMeshProUGUI deerCountText;
     
     [Header("---DEBUG---")]
     [SerializeField] private bool getDeers;
@@ -60,5 +64,10 @@ public class DeerManager : MonoBehaviour
     public List<DeerController> GetDeers()
     {
         return FindObjectsByType<DeerController>(FindObjectsSortMode.None).ToList();
+    }
+
+    public void DecreaseScore()
+    {
+        deerCountText.text = Int32.TryParse(deerCountText.text, out var deerCount ) ? (deerCount - 1).ToString() : "0";
     }
 }
