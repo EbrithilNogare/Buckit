@@ -45,7 +45,7 @@ public class MinigameController : MonoBehaviour
 
         if (minigameActive)
         {
-            SetRadialValue(progressBar.fillAmount + (Time.deltaTime / 2f)); // moznost delit nejakou const
+            SetRadialValue(progressBar.fillAmount + (Time.deltaTime)); // moznost delit nejakou const
         }
     }
 
