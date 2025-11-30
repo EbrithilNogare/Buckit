@@ -52,6 +52,8 @@ public class BoxController : MonoBehaviour
         BoxWindow.SetActive(false);
         buckController.gameObject.GetComponent<Animator>().enabled = true;
         buckController.gameObject.GetComponent<PlayerInput>().enabled = true;
+
+        sittingController.boxIsRunning = false;
     }
 
     private void SwapBox(Transform letter, bool value)

@@ -7,6 +7,9 @@ using UnityEngine.Serialization;
 public class SittingController : MonoBehaviour
 {
     public GameObject Target;
+    public BuckController buckController;
+    public CasingEjector casingEjector;
+    public BoxController boxController;
 
     [FormerlySerializedAs("HitGained")] [Header("---CONST---")] [SerializeField]
     public int MaxHealth;
@@ -26,6 +29,7 @@ public class SittingController : MonoBehaviour
     private int damagePlus = 5;
     private int damage = 1;
     public const float distanceToTriggerBox = 10f;
+    public bool boxIsRunning;
 
     void Start()
     {
@@ -33,6 +37,7 @@ public class SittingController : MonoBehaviour
         MaxHealth = 100;
         OnSittingGainedDamage += SittingGainedDamage;
         OnGainedMultiplier += GetMultiplier;
+        boxIsRunning = false;
     }
 
     private void GetMultiplier(int obj)
@@ -50,6 +55,16 @@ public class SittingController : MonoBehaviour
             Hit = false;
         }
         #endregion
+
+        if (casingEjector.isReloading && !boxIsRunning)
+            if(Vector2.Distance(
+               new Vector2(buckController.transform.position.x, buckController.transform.position.y), 
+               new Vector2(transform.position.x, transform.position.y)
+             ) < distanceToTriggerBox) {
+                boxIsRunning = true;
+                HideGuidingZone();
+                boxController.StartBox();
+            }
     }
 
     public void RevealGuidingZone()
