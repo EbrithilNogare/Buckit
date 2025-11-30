@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Random = UnityEngine.Random;
 
 public class DeerManager : MonoBehaviour
@@ -68,6 +69,11 @@ public class DeerManager : MonoBehaviour
 
     public void DecreaseScore()
     {
+        if (Score.Instance.DoeCount == 0)
+        {
+            SceneManager.LoadScene(2);
+        }
+
         deerCountText.text = Int32.TryParse(deerCountText.text, out var deerCount ) ? (deerCount - 1).ToString() : "0";
     }
 }
