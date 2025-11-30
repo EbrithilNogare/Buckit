@@ -67,7 +67,10 @@ public class MinigameController : MonoBehaviour
         numOfBullets = 3;
         minigameActive = false;
         SetRadialValue(0f);
-        telescopeController.StartLooking();
+        if (GameContinues)
+            telescopeController.StartLooking();
+        else
+            casingEjector.StartReloading(telescopeController.StartLooking);
     }
 
     public void MinigameStart(DeerController controller)
@@ -134,6 +137,7 @@ public class MinigameController : MonoBehaviour
                 //KILL DEER
                 Debug.Log("Kill deer");
                 deerController.Die();
+                GameContinues = casingEjector.UseShellAndContinue();
                 CallEnd();
             }
             else if (progressBar.fillAmount > 0.51 && progressBar.fillAmount <= 0.85f)

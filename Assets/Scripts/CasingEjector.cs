@@ -59,7 +59,7 @@ public class CasingEjector : MonoBehaviour
 
             AudioController.Instance.PlayReload();
 
-            yield return new WaitForSeconds(1.35f);
+            yield return new WaitForSeconds(1.4f);
         }
 
         shellIndex = transform.childCount - 1;
