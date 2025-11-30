@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1234567890\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n.\"/,:;-_*@\n\xE1\xFD\xFA\xED"
+  m_text: "1234567890\nABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n.\"/,:;-_*@\n\xE1\xFD\xFA\xED\u010DA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6274c93b243a8fa4da2d55f545f19e0a, type: 2}
   m_sharedMaterial: {fileID: 6487470525520085794, guid: 6274c93b243a8fa4da2d55f545f19e0a, type: 2}
