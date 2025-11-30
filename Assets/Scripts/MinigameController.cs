@@ -11,6 +11,7 @@ public class MinigameController : MonoBehaviour
     [SerializeField] GameObject minigameLetters;
     [SerializeField] Image progressBar;
     [SerializeField] TelescopeController telescopeController;
+    [SerializeField] SittingController sittingController;
     [SerializeField] private GameObject Moved;
     [SerializeField] private GameObject SuperMoved;
     [SerializeField] private GameObject BuckImage;
@@ -146,6 +147,7 @@ public class MinigameController : MonoBehaviour
                 //Boost Damage and Miss
                 Debug.Log("red");
                 Miss(i, true);
+                sittingController.OnGainedMultiplier?.Invoke(1);
             }
         }
     }
