@@ -53,7 +53,6 @@ public class LaserController : MonoBehaviour
         {
             EndLaser();
             // ### give control to minigame
-            // todo triger minigame
             minigameController.MinigameStart(selectedTarget);
         }
         else if (aimingDuration > aimingTimeBeforeHit)
