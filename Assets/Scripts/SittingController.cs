@@ -11,6 +11,7 @@ public class SittingController : MonoBehaviour
     public BuckController buckController;
     public CasingEjector casingEjector;
     public BoxController boxController;
+    public ParticleSystem DustParticles;
 
     [FormerlySerializedAs("HitGained")] [Header("---CONST---")] [SerializeField]
     public int MaxHealth;
@@ -107,6 +108,7 @@ public class SittingController : MonoBehaviour
             AudioController.Instance.PlayCollapse();
             StartCoroutine(WinScreen());
         }
+
         // switch (MaxHealth)
         // {
         //     case 0: sr.sprite = SittingSprite0; break;
@@ -115,6 +117,8 @@ public class SittingController : MonoBehaviour
         //     case 3: sr.sprite = SittingSprite3; break;
         //     default: sr.sprite = SittingSprite0; break;
         // }
+
+        DustParticles.Play();
     }
 
     private IEnumerator WinScreen()
