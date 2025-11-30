@@ -78,9 +78,12 @@ public class SittingController : MonoBehaviour
         Target.SetActive(false);
     }
 
+    Tween shakeTween;
+
     private void SittingGainedDamage()
     {
-        transform.DOShakePosition(0.2f);
+        if (shakeTween == null || !shakeTween.IsPlaying())
+            shakeTween = transform.DOShakePosition(0.2f);
         MaxHealth -= ((damagePlus * (multiplier > 0 ? 1 : 0)) + damage);
         if (multiplier > 0)
             multiplier--;
