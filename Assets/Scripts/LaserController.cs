@@ -61,11 +61,10 @@ public class LaserController : MonoBehaviour
             EndLaser();
 
             //kill deer
-            AudioController.Instance.PlayGunshot();
             selectedTarget.Die();
 
             // play sound
-            // todo pridat zvuk vystrelu
+            AudioController.Instance.PlayGunshot();
 
             // play animation
             bool canContinue = casingEjector.UseShellAndContinue();
