@@ -128,6 +128,7 @@ public class MinigameController : MonoBehaviour
         }
         else
         {
+            AudioController.Instance.PlayGunshot();
             if (progressBar.fillAmount >= minRadialValue && progressBar.fillAmount <= 0.51f)
             {
                 //KILL DEER
@@ -160,11 +161,13 @@ public class MinigameController : MonoBehaviour
         {
             image = SuperMoved.transform.GetChild(i).GetComponent<RectTransform>();
             SuperMoved.transform.GetChild(i).gameObject.SetActive(true);
+            AudioController.Instance.PlayUberDodge();
         }
         else
         {
             image = Moved.transform.GetChild(i).GetComponent<RectTransform>();
             Moved.transform.GetChild(i).gameObject.SetActive(true);
+            AudioController.Instance.PlayDeerDodge();
         }
 
         int movedValue = i == 0 ? 217 : -217;

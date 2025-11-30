@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AudioController : MonoBehaviour
 {
+    public static AudioController Instance;
+
     private AudioListener listener;
 
     [SerializeField]
@@ -25,6 +27,9 @@ public class AudioController : MonoBehaviour
     private List<AudioClip> deerDodgeList = new List<AudioClip>();
 
     [SerializeField]
+    private AudioClip UberDodge;
+
+    [SerializeField]
     private AudioClip CasingEject;
 
     [SerializeField]
@@ -34,7 +39,7 @@ public class AudioController : MonoBehaviour
     private AudioClip WoodHit;
 
     [SerializeField]
-    private AudioClip Aim;
+    private AudioSource AimMusic;
 
     [SerializeField]
     private AudioClip Gunshot;
@@ -42,6 +47,14 @@ public class AudioController : MonoBehaviour
     private void Awake()
     {
         listener = FindAnyObjectByType<AudioListener>();
+
+        Instance = this;
+    }
+
+    [ContextMenu(nameof(PlayUberDodge))]
+    internal void PlayUberDodge()
+    {
+        AudioSource.PlayClipAtPoint(UberDodge, listener.transform.position);
     }
 
     [ContextMenu(nameof(PlayCasingEject))]
@@ -65,7 +78,15 @@ public class AudioController : MonoBehaviour
     [ContextMenu(nameof(PlayAim))]
     internal void PlayAim()
     {
-        AudioSource.PlayClipAtPoint(Aim, listener.transform.position);
+        if (!AimMusic.isPlaying)
+            AimMusic.Play();
+    }
+
+    [ContextMenu(nameof(StopAim))]
+    internal void StopAim()
+    {
+        if (AimMusic.isPlaying)
+            AimMusic.Stop();
     }
 
     [ContextMenu(nameof(PlayGunshot))]
