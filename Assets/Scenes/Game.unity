@@ -1914,6 +1914,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7766946595706280002, guid: 241302529814f4c4a804217efb32e367, type: 3}
+      propertyPath: pressE
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766946595706280002, guid: 241302529814f4c4a804217efb32e367, type: 3}
       propertyPath: buckController
       value: 
       objectReference: {fileID: 1962019782}
