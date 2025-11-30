@@ -45,6 +45,7 @@ public class BoxController : MonoBehaviour
         pressQ = false;
         SwapBox(boxE.transform, true);
         SwapBox(boxQ.transform, false);
+        buckController.FightStart();
     }
 
     public void EndBox()
@@ -88,8 +89,7 @@ public class BoxController : MonoBehaviour
     private void Box()
     {
         sittingController.OnSittingGainedDamage?.Invoke();
-        buckController.gameObject.GetComponent<Animator>().enabled = false;
-        buckController.gameObject.GetComponent<PlayerInput>().enabled = false;
+        buckController.FightSwap();
     }
 
     private void PressedQ()

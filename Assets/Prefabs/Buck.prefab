@@ -193,6 +193,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 30
   smoothTime: 0.08
+  Fight0: {fileID: 2370837977010287025, guid: b49e8dae91216ba45bc587ca85b78614, type: 3}
+  Fight1: {fileID: -6115474218109925407, guid: 0dd6848a8c021ac418cd88682a24679e, type: 3}
 --- !u!50 &286630708035018116
 Rigidbody2D:
   serializedVersion: 5
@@ -309,6 +311,14 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e65b5d31-704a-4708-b865-b536b16e5284
+    m_ActionName: 'Player/BoxLeft[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b7b6af9b-fe68-48f5-a422-f97027021ade
+    m_ActionName: 'Player/BoxRight[/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

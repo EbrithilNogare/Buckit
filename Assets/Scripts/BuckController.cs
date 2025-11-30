@@ -6,6 +6,10 @@ public class BuckController : MonoBehaviour
     public float moveSpeed = 10f;
     public float smoothTime = 0.08f;
 
+    public Sprite Fight0;
+    public Sprite Fight1;
+    private int fight = 0;
+
     Rigidbody2D rb;
     SpriteRenderer sr;
     Animator animator;
@@ -41,6 +45,30 @@ public class BuckController : MonoBehaviour
     {
         if (ctx.ReadValue<Vector2>() != Vector2.zero)
             animator.Play("Box");
+    }
+
+    public void FightSwap(){
+        switch (fight)
+        {
+            case 0:
+                sr.sprite = Fight0;
+                fight = 1;
+                break;
+            case 1:
+                sr.sprite = Fight1;
+                fight = 0;
+                break;
+            default:
+                sr.sprite = Fight0; 
+                break;
+        }
+        
+    }
+
+    public void FightStart()
+    {
+        animator.enabled = false;
+        gameObject.GetComponent<PlayerInput>().enabled = false;
     }
 
     void FixedUpdate()
