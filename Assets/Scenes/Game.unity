@@ -771,6 +771,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &845157811 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1445254345353783895, guid: 241302529814f4c4a804217efb32e367, type: 3}
+  m_PrefabInstance: {fileID: 2909211773412657109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b957d2a7f1cc34ba098835eeb1a52f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &869678880 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4507848493970948074, guid: 5f4cf7a4a82469146894ed8cf9db8b20, type: 3}
@@ -1506,6 +1517,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7128489961986658888}
+    - target: {fileID: 1445254345353783895, guid: 241302529814f4c4a804217efb32e367, type: 3}
+      propertyPath: telescopeController
+      value: 
+      objectReference: {fileID: 1889391422}
     - target: {fileID: 2313480732351655226, guid: 241302529814f4c4a804217efb32e367, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1643,6 +1658,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 241302529814f4c4a804217efb32e367, type: 3}
+--- !u!114 &2909211773412657110 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5483988472157354602, guid: 241302529814f4c4a804217efb32e367, type: 3}
+  m_PrefabInstance: {fileID: 2909211773412657109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3812151517486937684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1828,6 +1854,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4507848493970948074, guid: 5f4cf7a4a82469146894ed8cf9db8b20, type: 3}
+      propertyPath: deerCountText
+      value: 
+      objectReference: {fileID: 2909211773412657110}
+    - target: {fileID: 4507848493970948074, guid: 5f4cf7a4a82469146894ed8cf9db8b20, type: 3}
       propertyPath: SpawnPointsParent
       value: 
       objectReference: {fileID: 1405005944}
@@ -1940,6 +1970,10 @@ PrefabInstance:
       propertyPath: SittingPosition
       value: 
       objectReference: {fileID: 6361836010166707059}
+    - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
+      propertyPath: minigameController
+      value: 
+      objectReference: {fileID: 845157811}
     - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
       propertyPath: telescopeController
       value: 

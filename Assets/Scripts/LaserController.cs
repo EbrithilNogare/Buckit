@@ -7,6 +7,7 @@ public class LaserController : MonoBehaviour
     public TelescopeController telescopeController;
     public Transform SittingPosition;
     public Transform Buck;
+    public MinigameController minigameController;
 
     private const float aimingTimeBeforeHit = 3f;
 
@@ -47,7 +48,7 @@ public class LaserController : MonoBehaviour
             EndLaser();
             // give control to minigame
             // todo triger minigame
-            telescopeController.LaserEnded();
+            minigameController.MinigameStart(selectedTarget);
         }
         else if (aimingDuration > aimingTimeBeforeHit)
         {

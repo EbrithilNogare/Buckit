@@ -87,6 +87,7 @@ public class DeerController : MonoBehaviour
         yield return new WaitForSeconds(time);
         var deathDeer = Instantiate(DeathDeer, transform.parent.parent.gameObject.GetComponent<DeerManager>().DeathDeersParent.transform);
         deathDeer.transform.position = transform.position;
+        transform.parent.parent.gameObject.GetComponent<DeerManager>().DecreaseScore();
         Destroy(gameObject);
     }
     
