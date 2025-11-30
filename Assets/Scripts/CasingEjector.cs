@@ -9,24 +9,62 @@ public class CasingEjector : MonoBehaviour
     [SerializeField]
     private AudioController audioController;
 
-    private IEnumerator Start()
-    {
-        yield return new WaitForSeconds(2f);
+    public bool isReloading;
+    private int shellIndex;
 
-        //foreach (Transform t in transform)
-        //{
-        //    Eject(t.position);
-        //    yield return new WaitForSeconds(1f);
-        //}
+    void Start()
+    {
+        isReloading = false;
+        shellIndex = transform.childCount - 1;
     }
 
-    [ContextMenu(nameof(TestEject))]
-    private void TestEject()
+    // false = empty shells
+    public bool UseShellAndContinue()
     {
-        Eject(Vector2.zero);
+        if (shellIndex == 0)
+            return false;
+
+        Transform shell = transform.GetChild(shellIndex);
+        Vector2 position = shell.position;
+        EjectAnimation(position);
+
+        shell.gameObject.SetActive(false);
+
+        shellIndex--;
+
+        return shellIndex > 0;
     }
 
-    public void Eject(Vector2 position)
+    public void StartReloading(System.Action callback)
+    {
+        isReloading = true;
+
+        StartCoroutine(RevealBullets(callback));
+    }
+
+    private IEnumerator RevealBullets(System.Action callback)
+    {
+
+        yield return new WaitForSeconds(1f);
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Transform shell = transform.GetChild(i);
+            shell.gameObject.SetActive(true);
+
+            // todo add sound of adding bullet
+
+            yield return new WaitForSeconds(1f);
+        }
+
+        shellIndex = transform.childCount - 1;
+        isReloading = false;
+
+        callback.Invoke();
+    }
+
+
+    public void EjectAnimation(Vector2 position)
     {
         var casing = Instantiate(Casing, position, Quaternion.identity, transform.parent);
 

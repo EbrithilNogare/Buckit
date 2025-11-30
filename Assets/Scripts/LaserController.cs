@@ -8,6 +8,7 @@ public class LaserController : MonoBehaviour
     public Transform SittingPosition;
     public Transform Buck;
     public MinigameController minigameController;
+    public CasingEjector casingEjector;
 
     private const float aimingTimeBeforeHit = 3f;
 
@@ -51,27 +52,36 @@ public class LaserController : MonoBehaviour
         if (IsBuckOnBeam())
         {
             EndLaser();
-            // give control to minigame
+            // ### give control to minigame
             // todo triger minigame
             minigameController.MinigameStart(selectedTarget);
         }
         else if (aimingDuration > aimingTimeBeforeHit)
         {
+            // end self
+            EndLaser();
+
             //kill deer
             AudioController.Instance.PlayGunshot();
             selectedTarget.Die();
 
             // play sound
-            // todo
+            // todo pridat zvuk vystrelu
 
             // play animation
-            // todo
+            bool canContinue = casingEjector.UseShellAndContinue();
 
-            // end self
-            EndLaser();
 
-            // give control to telescope
-            telescopeController.LaserEnded();
+            if (canContinue)
+            {
+                // ### give control to telescope
+                telescopeController.StartLooking();
+            }
+            else
+            {
+                // ### give control to ejector
+                casingEjector.StartReloading(telescopeController.StartLooking);
+            }
         }
     }
 

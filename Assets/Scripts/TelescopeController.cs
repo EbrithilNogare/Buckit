@@ -167,7 +167,7 @@ public class TelescopeController : MonoBehaviour
         laserController.TriggerLaser(selectedTarget);
     }
 
-    public void LaserEnded()
+    public void StartLooking()
     {
         Cone.gameObject.SetActive(true);
         View.gameObject.SetActive(true);
