@@ -1623,6 +1623,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2909211773412657111 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8393304833356771783, guid: 241302529814f4c4a804217efb32e367, type: 3}
+  m_PrefabInstance: {fileID: 2909211773412657109}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1b9119b21a33e4ca1814461a8cbe8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3812151517486937684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1920,6 +1931,10 @@ PrefabInstance:
       propertyPath: Buck
       value: 
       objectReference: {fileID: 1962019778}
+    - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
+      propertyPath: casingEjector
+      value: 
+      objectReference: {fileID: 2909211773412657111}
     - target: {fileID: 6390788015690925709, guid: 730a31290a69116479328a3aeab53a2f, type: 3}
       propertyPath: SittingPosition
       value: 

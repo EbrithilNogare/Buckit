@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e66b06c60095e1d4886b87f3457c98de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HitGained: 0
+  MaxHealth: 0
   SittingSprite0: {fileID: 6970119428980305852, guid: 18f478f94ec314d4d94f0b06855f7838, type: 3}
   SittingSprite1: {fileID: 1864355941653719331, guid: 153f69c101c8a684ab3eb23ed8cd8b0d, type: 3}
   SittingSprite2: {fileID: 1770001264133788283, guid: b2857b6694c44b84896ba59119f2b3b4, type: 3}
