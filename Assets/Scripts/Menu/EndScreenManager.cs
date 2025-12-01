@@ -14,8 +14,13 @@ public class EndScreenManager : MonoBehaviour
     void Start()
     {
         if(Score.Instance == null) return;
-        
-        if (!Score.Instance.BuckAlive)
+
+
+        if (Score.Instance.DoeCount == 0)
+        {
+            CallDeathDoesScreen();
+        }
+        else if (!Score.Instance.BuckAlive)
         {
             CallDeathScreen();
         }
